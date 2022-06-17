@@ -115,9 +115,24 @@ To "show" the details of a specific library
 pip show requests
 ```
 
-## Machine Learning
+## Machine Learning Training
 
-Libraries to practice with:
+### Supervised Learning
+
+Uses labelled data to train the model.
+
+Models are trained on the features and the associated label.
+
+### Unsupervised Learning
+
+Uses unlabelled data to train the model.
+
+Models discover emerging patterns (i.e. hidden structures in data) and cluster them together.
+### Reinforcement Learning
+
+Is a reward-based learning and it works on the principle of feedback.
+
+### Libraries
 * [NumPy](https://numpy.org)
 * [SciPy](https://scipy.org)
 * [scikit-learn](https://scikit-learn.org/stable)
@@ -130,10 +145,11 @@ Libraries to practice with:
 * [Dplyr](https://dplyr.tidyverse.org/)
 * [Tidyr](https://tidyr.tidyverse.org/)
 
-Machine learning algorithms to practice:
+### Algorithms
 * [Linear regression](https://en.wikipedia.org/wiki/Linear_regression)
 * [Logistic regression](https://en.wikipedia.org/wiki/Logistic_regression)
 * [Support-vector machine (SVM)](https://en.wikipedia.org/wiki/Support-vector_machine)
 * [K-nearest neighbors (KNN)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 * [Decision tree](https://en.wikipedia.org/wiki/Decision_tree)
 * [K-means clustering](https://en.wikipedia.org/wiki/K-means_clustering)
+* [Random forest](https://en.wikipedia.org/wiki/Random_forest)
