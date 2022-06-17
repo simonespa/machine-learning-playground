@@ -118,22 +118,22 @@ pip show requests
 ## Machine Learning
 
 Libraries to practice with:
-* NumPy
-* SciPy
-* scikit-learn
-* pandas
-* TensorFlow
-* PyTorch
-* Matplotlib
-* Seaborn
-* Dplyr
-* Tidyr
-* Ggplot
+* [NumPy](https://numpy.org)
+* [SciPy](https://scipy.org)
+* [scikit-learn](https://scikit-learn.org/stable)
+* [pandas](https://pandas.pydata.org)
+* [TensorFlow](https://www.tensorflow.org)
+* [PyTorch](https://pytorch.org)
+* [Matplotlib](https://matplotlib.org)
+* [Seaborn](https://seaborn.pydata.org/)
+* [Ggplot](https://ggplot2.tidyverse.org/index.html)
+* [Dplyr](https://dplyr.tidyverse.org/)
+* [Tidyr](https://tidyr.tidyverse.org/)
 
 Machine learning algorithms to practice:
-* Linear Regression
-* Logistic Regression
-* SVM
-* KNN
-* Decision Trees
-* K Means Clustering
+* [Linear regression](https://en.wikipedia.org/wiki/Linear_regression)
+* [Logistic regression](https://en.wikipedia.org/wiki/Logistic_regression)
+* [Support-vector machine (SVM)](https://en.wikipedia.org/wiki/Support-vector_machine)
+* [K-nearest neighbors (KNN)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+* [Decision tree](https://en.wikipedia.org/wiki/Decision_tree)
+* [K-means clustering](https://en.wikipedia.org/wiki/K-means_clustering)
