@@ -1,15 +1,14 @@
-- [Machine Learning Playground](#machine-learning-playground)
-  * [Getting Started](#getting-started)
-    + [Setup the virtual environment](#setup-the-virtual-environment)
-    + [Install the dependencies](#install-the-dependencies)
-    + [How to generate the requirements file](#how-to-generate-the-requirements-file)
-    + [How to run an example](#how-to-run-an-example)
-    + [Useful PIP commands](#useful-pip-commands)
-  * [Machine Learning](#machine-learning)
+- [Getting Started](#getting-started)
+  * [Setup the virtual environment](#setup-the-virtual-environment)
+  * [Install the dependencies](#install-the-dependencies)
+  * [How to generate the requirements file](#how-to-generate-the-requirements-file)
+  * [How to run an example](#how-to-run-an-example)
+  * [Useful PIP commands](#useful-pip-commands)
+- [Machine Learning](#machine-learning)
 
 # Machine Learning Playground
 
-A playground to practice machine learning, data modelling and visualisation
+A playground repository to practice machine learning, data modelling and data visualisation.
 
 ## Getting Started
 
