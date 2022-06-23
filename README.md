@@ -138,12 +138,16 @@ Is a reward-based learning and it works on the principle of feedback.
 * [scikit-learn](https://scikit-learn.org/stable)
 * [pandas](https://pandas.pydata.org)
 * [TensorFlow](https://www.tensorflow.org)
+* [Keras](https://keras.io)
 * [PyTorch](https://pytorch.org)
+* [Caffe](https://caffe.berkeleyvision.org)
+* [Theano](https://theano-pymc.readthedocs.io/en/latest)
 * [Matplotlib](https://matplotlib.org)
 * [Seaborn](https://seaborn.pydata.org/)
 * [Ggplot](https://ggplot2.tidyverse.org/index.html)
 * [Dplyr](https://dplyr.tidyverse.org/)
 * [Tidyr](https://tidyr.tidyverse.org/)
+
 
 ### Algorithms
 * [Linear regression](https://en.wikipedia.org/wiki/Linear_regression)
