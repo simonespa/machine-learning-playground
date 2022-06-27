@@ -1,18 +1,22 @@
-- [Getting Started](#getting-started)
-  * [Setup the virtual environment](#setup-the-virtual-environment)
-  * [Install the dependencies](#install-the-dependencies)
-  * [How to generate the requirements file](#how-to-generate-the-requirements-file)
-  * [How to run an example](#how-to-run-an-example)
-  * [Useful PIP commands](#useful-pip-commands)
-- [Machine Learning](#machine-learning)
+* [Getting Started](#getting-started)
+  + [Setup the virtual environment](#setup-the-virtual-environment)
+  + [Install the dependencies](#install-the-dependencies)
+* [How to generate the requirements file](#how-to-generate-the-requirements-file)
+* [How to run an example](#how-to-run-an-example)
+* [Useful PIP commands](#useful-pip-commands)
+* [Python Libraries](#python-libraries)
 
 # Machine Learning Playground
 
-A playground repository to practice machine learning, data modelling and data visualisation.
+A playground repository to practice machine learning algorithms using the most popular Python libraries for the job.
+
+Before all of that, I will be practicing some basic data visualisation and analysis using foundational libraries like NumPy, Pandas, MatplotLib, etc.
+
+I'm writing the notebooks with a local installation of Jupiter Notebook (and/or JupiterLab) using [Anaconda](https://www.anaconda.com). Every other Python file can be run directly, for that I'm using a virtual environment (read next section).
 
 ## Getting Started
 
-I'm currently using [pyenv](https://github.com/pyenv/pyenv) to manage the Python version on my terminal.
+I'm currently using [pyenv](https://github.com/pyenv/pyenv) to manage the Python version on my local machine.
 
 This section will guide you through the setup of a Python virtual environment for this specific project.
 
@@ -58,7 +62,7 @@ Install the required dependencies
 pip install -r requirements.txt
 ```
 
-### How to generate the requirements file
+## How to generate the requirements file
 
 If you want to generate a new "requirements" file or add/remove dependencies and update the existing one
 
@@ -66,7 +70,7 @@ If you want to generate a new "requirements" file or add/remove dependencies and
 pip freeze > requirements.txt
 ```
 
-### How to run an example
+## How to run an example
 
 Let's say there is an `example.py` module within the `exercises` folder that defines a `hello` function.
 
@@ -101,7 +105,7 @@ and then run
 python exercises/example.py
 ```
 
-### Useful PIP commands
+## Useful PIP commands
 
 To list all the installed libraries in `site-packages`
 
@@ -115,28 +119,11 @@ To "show" the details of a specific library
 pip show requests
 ```
 
-## Machine Learning Training
-
-### Supervised Learning
-
-Uses labelled data to train the model.
-
-Models are trained on the features and the associated label.
-
-### Unsupervised Learning
-
-Uses unlabelled data to train the model.
-
-Models discover emerging patterns (i.e. hidden structures in data) and cluster them together.
-### Reinforcement Learning
-
-Is a reward-based learning and it works on the principle of feedback.
-
-### Libraries
+## Python Libraries
 * [NumPy](https://numpy.org)
 * [SciPy](https://scipy.org)
 * [scikit-learn](https://scikit-learn.org/stable)
-* [pandas](https://pandas.pydata.org)
+* [Pandas](https://pandas.pydata.org)
 * [TensorFlow](https://www.tensorflow.org)
 * [Keras](https://keras.io)
 * [PyTorch](https://pytorch.org)
@@ -147,13 +134,3 @@ Is a reward-based learning and it works on the principle of feedback.
 * [Ggplot](https://ggplot2.tidyverse.org/index.html)
 * [Dplyr](https://dplyr.tidyverse.org/)
 * [Tidyr](https://tidyr.tidyverse.org/)
-
-
-### Algorithms
-* [Linear regression](https://en.wikipedia.org/wiki/Linear_regression)
-* [Logistic regression](https://en.wikipedia.org/wiki/Logistic_regression)
-* [Support-vector machine (SVM)](https://en.wikipedia.org/wiki/Support-vector_machine)
-* [K-nearest neighbors (KNN)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
-* [Decision tree](https://en.wikipedia.org/wiki/Decision_tree)
-* [K-means clustering](https://en.wikipedia.org/wiki/K-means_clustering)
-* [Random forest](https://en.wikipedia.org/wiki/Random_forest)
