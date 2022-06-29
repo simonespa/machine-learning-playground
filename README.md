@@ -8,11 +8,13 @@
 
 # Machine Learning Playground
 
-A playground repository to practice machine learning algorithms using the most popular Python libraries for the job.
+A playground repository to practice machine learning algorithms and data science techniques using the most popular Python libraries for the job.
 
-Before all of that, I will be practicing some basic data visualisation and analysis using foundational libraries like NumPy, Pandas, MatplotLib, etc.
+To do so, I'm practicing some basic data visualisation and analysis using foundational libraries such as NumPy, Pandas, MatplotLib, etc.
 
-I'm writing the notebooks with a local installation of Jupiter Notebook (and/or JupiterLab) using [Anaconda](https://www.anaconda.com). Every other Python file can be run directly, for that I'm using a virtual environment (read next section).
+The notebooks are written with a local installation of [Jupiter](https://jupyter.org/) managed by [Anaconda](https://www.anaconda.com).
+
+Every other Python file can be run directly, for that I'm using a virtual environment (read next section).
 
 ## Getting Started
 
