@@ -79,5 +79,5 @@ pip list
 To "show" the details of a specific library
 
 ```
-pip show requests
+pip show numpy
 ```
