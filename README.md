@@ -1,10 +1,10 @@
-* [Getting Started](#getting-started)
-  + [Setup the virtual environment](#setup-the-virtual-environment)
-  + [Install the dependencies](#install-the-dependencies)
-* [How to generate the requirements file](#how-to-generate-the-requirements-file)
-* [How to run an example](#how-to-run-an-example)
-* [Useful PIP commands](#useful-pip-commands)
-* [Python Libraries](#python-libraries)
+- [Machine Learning Playground](#machine-learning-playground)
+  * [Getting started with Virtualenv](#getting-started-with-virtualenv)
+  * [Getting started with Anaconda](#getting-started-with-anaconda)
+  * [Dependencies](#dependencies)
+  * [Other Python libraries](#other-python-libraries)
+  * [How to generate the requirements file](#how-to-generate-the-requirements-file)
+  * [Useful PIP commands](#useful-pip-commands)
 
 # Machine Learning Playground
 
