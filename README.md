@@ -8,61 +8,57 @@
 
 # Machine Learning Playground
 
-A playground repository to practice machine learning algorithms and data science techniques using the most popular Python libraries for the job.
+A playground repository to practice machine learning and data science techniques and algorithms using the most popular Python libraries for the job.
 
-To do so, I'm practicing some basic data visualisation and analysis using foundational libraries such as NumPy, Pandas, MatplotLib, etc.
+The notebook exercises are written with [Jupyter](https://jupyter.org/). You can also use [Kaggle](https://www.kaggle.com) or [Google Colab](https://colab.research.google.com) to edit them on the cloud.
 
-The notebooks are written with a local installation of [Jupiter](https://jupyter.org/) managed by [Anaconda](https://www.anaconda.com).
+## Getting started with Virtualenv
 
-Every other Python file can be run directly, for that I'm using a virtual environment (read next section).
+Make sure to have the latest Python 3.x installed on your machine. Consider using [Pyenv](https://github.com/pyenv/pyenv#installation) to manage your Python versions.
 
-## Getting Started
+This section will guide you through the setup of an isolated Python environment for this project.
 
-I'm currently using [pyenv](https://github.com/pyenv/pyenv) to manage the Python version on my local machine.
+* Install [Virtualenv](https://pypi.org/project/virtualenv/) (read the [installation](https://virtualenv.pypa.io/en/latest/installation.html) documentation)
+* Create a new virtual environment by running `virtualenv .env`
+* Enable your virtual environment by running `source .env/bin/activate` (or `. .env/bin/activate`).
+* Confirm you’re using the virtual environment by checking the location of your Python interpreter `which python`
+* Install the dependencies `pip install -r requirements.txt`
+* Start the development environment by running `jupyter notebook`
+* Once you finish with this project, you can disable the virtual environment by running `deactivate`
 
-This section will guide you through the setup of a Python virtual environment for this specific project.
+## Getting started with Anaconda
 
-The use of a virtual environment allows you to isolate the project and its dependencies from the main Python installation.
+* Download and install [Anaconda](https://www.anaconda.com)
+* Launch the Jupyter notebook or JupyterLab from the main console
 
-### Setup the virtual environment
+## Dependencies
 
-Create a virtual environment with `virtualenv`
+This is the list of libraries included in the `requirements.txt` file.
 
-```
-virtualenv .env
-```
-
-and activate it
-
-```
-source .env/bin/activate
-```
-
-or
-
-```
-. env/bin/activate
-```
-
-You can confirm you’re using the virtual environment by checking the location of your Python interpreter
-
-```
-which python
-```
-
-If you want to switch to another project or generally speaking leave your current virtual environment, run
+* [Jupyter](https://jupyter.org)
+* [JupyterLab](https://jupyter.org)
+* [NumPy](https://numpy.org)
+* [Pandas](https://pandas.pydata.org)
+* [SciPy](https://scipy.org)
+* [Matplotlib](https://matplotlib.org)
+* [Seaborn](https://seaborn.pydata.org)
+* [Scikit-Learn](https://scikit-learn.org)
+* [TensorFlow](https://www.tensorflow.org)
+* [PyTorch](https://pytorch.org)
+* [Keras](https://keras.io)
 
 ```
-deactivate
+notebook jupyterlab numpy pandas scipy matplotlib seaborn scikit-learn tensorflow torch torchvision torchaudio
 ```
+## Other Python libraries
 
-### Install the dependencies
+This is a list of other useful Python libraries not included in this project.
 
-Install the required dependencies
-
-```
-pip install -r requirements.txt
-```
+* [Caffe](https://caffe.berkeleyvision.org)
+* [Theano](https://theano-pymc.readthedocs.io/en/latest)
+* [Ggplot](https://ggplot2.tidyverse.org/index.html)
+* [Dplyr](https://dplyr.tidyverse.org/)
+* [Tidyr](https://tidyr.tidyverse.org/)
 
 ## How to generate the requirements file
 
@@ -70,41 +66,6 @@ If you want to generate a new "requirements" file or add/remove dependencies and
 
 ```
 pip freeze > requirements.txt
-```
-
-## How to run an example
-
-Let's say there is an `example.py` module within the `exercises` folder that defines a `hello` function.
-
-Open the Python interpreter
-
-```
-python
-```
-
-import the function you want to run from its module
-
-```py
-from exercises.example import hello
-```
-
-execute the function
-
-```py
-hello()
-```
-
-Modules don't have any "main" execution. If you were to run a file directly, you would need to add the following to it
-
-```py
-if __name__ == '__main__':
-  hello()
-```
-
-and then run
-
-```
-python exercises/example.py
 ```
 
 ## Useful PIP commands
@@ -120,19 +81,3 @@ To "show" the details of a specific library
 ```
 pip show requests
 ```
-
-## Python Libraries
-* [NumPy](https://numpy.org)
-* [SciPy](https://scipy.org)
-* [scikit-learn](https://scikit-learn.org/stable)
-* [Pandas](https://pandas.pydata.org)
-* [TensorFlow](https://www.tensorflow.org)
-* [Keras](https://keras.io)
-* [PyTorch](https://pytorch.org)
-* [Caffe](https://caffe.berkeleyvision.org)
-* [Theano](https://theano-pymc.readthedocs.io/en/latest)
-* [Matplotlib](https://matplotlib.org)
-* [Seaborn](https://seaborn.pydata.org/)
-* [Ggplot](https://ggplot2.tidyverse.org/index.html)
-* [Dplyr](https://dplyr.tidyverse.org/)
-* [Tidyr](https://tidyr.tidyverse.org/)
