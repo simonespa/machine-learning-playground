@@ -28,8 +28,9 @@ This section will guide you through the setup of an isolated Python environment 
 
 ## Getting started with Anaconda
 
-* Download and install [Anaconda](https://www.anaconda.com)
-* Launch the Jupyter notebook or JupyterLab from the main console
+* Download and install [Anaconda](https://www.anaconda.com) on your machine
+* Start the [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/)
+* Install and launch the Jupyter notebook or JupyterLab from the "home" tab
 
 ## Dependencies
 
