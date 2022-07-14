@@ -18,13 +18,55 @@ Make sure to have the latest Python 3.x installed on your machine. Consider usin
 
 This section will guide you through the setup of an isolated Python environment for this project.
 
-* Install [Virtualenv](https://pypi.org/project/virtualenv/) (read the [installation](https://virtualenv.pypa.io/en/latest/installation.html) documentation)
-* Create a new virtual environment by running `virtualenv .env`
-* Enable your virtual environment by running `source .env/bin/activate` (or `. .env/bin/activate`).
-* Confirm you’re using the virtual environment by checking the location of your Python interpreter `which python`
-* Install the dependencies `pip install -r requirements.txt`
-* Start the development environment by running `jupyter notebook`
-* Once you finish with this project, you can disable the virtual environment by running `deactivate`
+Install [Virtualenv](https://pypi.org/project/virtualenv/) (read the [installation](https://virtualenv.pypa.io/en/latest/installation.html) documentation)
+
+Create a new virtual environment
+
+```
+virtualenv .env
+```
+
+Enable the virtual environment
+
+```
+source .env/bin/activate
+```
+
+or
+
+```
+. .env/bin/activate
+```
+
+Confirm you’re using the virtual environment by checking the location of your Python interpreter
+
+```
+which python
+```
+
+Install the dependencies
+
+```
+pip install -r requirements.txt
+```
+
+Start the development environment
+
+```
+jupyter notebook
+```
+
+or
+
+```
+jupyter lab
+```
+
+Once you finish with this project, you can disable the virtual environment
+
+```
+deactivate
+```
 
 ## Getting started with Anaconda
 
