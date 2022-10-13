@@ -74,6 +74,15 @@ deactivate
 * Start the [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/)
 * Install and launch the Jupyter notebook or JupyterLab from the "home" tab
 
+## Activate code formatting
+
+Install and enable code formatting with [Black](https://pypi.org/project/black/) as a Jupyter extension
+
+```
+jupyter nbextension install https://github.com/drillan/jupyter-black/archive/master.zip --user
+jupyter nbextension enable jupyter-black-master/jupyter-black
+```
+
 ## Dependencies
 
 This is the list of libraries included in the `requirements.txt` file.
