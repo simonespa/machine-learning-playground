@@ -1,3 +1,12 @@
+- [Introduction to Machine Learning](#introduction-to-machine-learning)
+  * [Machine Learning Approaches](#machine-learning-approaches)
+    + [Supervised Learning](#supervised-learning)
+      - [Example: Loan Outcomes](#example--loan-outcomes)
+    + [Unsupervised Learning](#unsupervised-learning)
+      - [Example: Customer Segmentation](#example--customer-segmentation)
+    + [Reinforcement Learning](#reinforcement-learning)
+      - [Exploitation vs Exploration tradeoff](#exploitation-vs-exploration-tradeoff)
+
 # Introduction to Machine Learning
 
 Machine Learning is a sub-field of Artificial Intelligence, while Deep Learning is a sub-field of ML.
