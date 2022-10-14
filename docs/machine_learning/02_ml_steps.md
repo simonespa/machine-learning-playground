@@ -43,7 +43,7 @@ Features can also be categorised based on their dimensionality (unidimensional, 
 
 #### Comparison Visualisation
 
-It illustrates the difference between two or more items. The “box plot” is used. This visualisations provides insights, such as:
+It illustrates the difference between two or more items. The “box plot” can be used. This visualisations provides insights, such as:
 
 - Significance (importance) of a feature
 - Variation of the mean value across subgroups
@@ -90,7 +90,7 @@ There are several techniques that aims at preparing the dataset for the modeling
 
 ### Cleaning Missing Data
 
-Data can be missing for many reasons. It can happen for human error, lack of a reliable source, because the data is not available or can't be retrieved or simply because it doesn't exist.
+Data can be missing for many reason. It can happen for human error, lack of a reliable source, because the data is not available or can't be retrieved or simply because it doesn't exist.
 
 There are different approaches to deal with missing data:
 
@@ -159,7 +159,7 @@ It replaces the original values with the logarithm. The logarithm can be the nat
 
 ### Dataset Size
 
-As we prepare our data, we sometimes have to reduce the size or complexity of our dataset. There are several ways of doing so. One approach is **Sampling**, which reduces the number of rows in our data. Another approach is **Dimensionality Reduction** which reduces the number of features (columns) - hence dimension or cardinality - in our dataset. This is often required in order to reduce the training time and memory consumption. It also helps with overfitting by simplifying the model. A model with too many degrees of freedom (a.k.a. many parameters) is likely to overfit the training dataset and therefore may not perform well on new data. Plus, a simpler dataset improves data visualisation.
+As we prepare our data, we sometimes have to reduce the size or complexity of our dataset. There are several ways of doing so. One approach is **Sampling**, which reduces the number of rows in our data. Another approach is **Dimensionality Reduction** which reduces the number of features (columns) - hence dimension or cardinality - in our dataset.
 
 ### Sampling
 
@@ -173,30 +173,113 @@ Simple Random Sampling (with replacement): the instances selected from the popul
 
 Stratified Random Sampling: it is like the simple random sampling approach, but ensures that the distribution of values of a particular feature within the sample, matches the distribution of values for the same feature in the overall population.
 
-To do this, the instances are first divided in homogenous subgroups known as “strata”. Let’s say for example that we want to stratify based on gender. This means that we first need to group our population by gender
+To do this, the instances are first divided in homogenous subgroups known as “strata”. Let’s say for example that we want to stratify based on gender. This means that we first need to group our population by it.
 
-Dimensionality Reduction
-It’s simple the reduction of features or instances in a dataset. It’s important because it helps reducing time and storage required to process data.
+### Curse of dimensionality
 
-It improves data visualisation.
-
-Curse of dimensionality
 It’s a phenomenon in ML that describes that the eventual reduction of the performance of a model as the dimensionality of the dataset increases. Specifically as we increase the number of features we eventually also have to increase the number of instances (rows) in the training data. if we don’t do this, the performance of our model will eventually degrade.
 
-Most of the time it’s hard if not impossible or impractical to increase the number of instance, so the best course of action is to decrease the cardinality of the dataset to mitigate the impact of the “Curse of dimensionality”. We need to identify the optimal number of features to use.
+Most of the time it’s hard if not impossible or impractical to increase the number of instances, so the best course of action is to decrease the cardinality of the dataset to mitigate the impact of the “Curse of dimensionality”. We need to identify the optimal number of features to use.
 
-There are two common approachs for the Dimensionality Reduction. There’s Feature Selection and Feature Extraction.
+### Dimensionality Reduction
 
-Feature Selection
-This approach identify the minimal set of features that results in the model performance reasonably close to that obtained by a model trained on all the features. The assumption is that some of the features could be: redundant, irrelevant, or derivative and can be removed without having much of an impact on the performance of the model.
+It refers to techniques that reduce the number of features in a dataset. It’s important because it helps reducing time and storage required to process data by simplifying the
 
-This approach is also know as Variable Subset Selection.
+It reduces the number of dimensions of the feature space, hence the name "dimensionality reduction".
 
-Feature Extraction
+Dimensionality reduction is required to reduce the training time and memory consumption. It also helps with overfitting by simplifying the model. A model with too many degrees of freedom (a.k.a. many parameters) is likely to overfit the training dataset and therefore may not perform well on new data. Plus, a simpler dataset improves data visualisation.
+
+Two important approachs are **Feature Selection** and **Feature Extraction**.
+
+Worth mentioning also:
+
+- Matrix Factorization
+- Manifold Learning
+- Autoencoder Methods
+
+#### Feature Selection
+
+Feature selection tecniques uses scoring or statistical methods to select which features to keep from the feature space.
+
+This approach identify the minimal set of features that gives a performance reasonably close to that obtained by a model trained on all the features. The assumption is that some of the features could be redundant, irrelevant, or derivative and can be removed without having much of an impact on the performance of the model.
+
+This approach is also know as **Variable Subset Selection**.
+
+There are three types of feature selection techniques:
+
+- Filter methods
+- Wrapper methods
+- Embedded methods
+
+**Filter Methods**
+
+Use scoring methods like correlation between the feature and the target variable, to select a subset of input features that are most predictive. Examples include Pearson’s correlation and Chi-Squared test.
+
+**Wrapper Methods**
+
+With wrapper methods, the feature selection process is based on a specific machine learning algorithm that fits and evaluate the model with different subsets of input features and selecting the subset the results in the best model performance.
+
+Most commonly used techniques under wrapper methods are:
+
+- Forward selection
+- Backward elimination
+- Bi-directional elimination (a.k.a stepwise selection)
+- Recursive Feature Elimination
+
+#### Feature Extraction
+
 This approach uses a mathematical function to transform high-cardinality data into a lower one.
 
 This approach result in a final set of features that are completely different from the original set. The new features are simply a projection of the original dataset.
 
-This is why this approach is also known as Feature Projection.
+This is why this approach is also known as **Feature Projection**.
 
 It is a very efficient approach but it present one notable disadvantage: the resulting value of the projected new features are completely different and not easy to interpret.
+
+## Modeling
+
+Is the process of choosing and applying a machine learning algorithm that works well with the data we have.
+
+In Supervised ML, the objective is to build a model that maps a given input (a set of independent variables) to a given output (dependent variable).
+
+Depending on the nature of the dependent variable our problem can be either a Classification (for categorical labels) or a Regression problem (for continuous labels).
+
+Some popular ML algorithm such as:
+
+- Neural Networks (of any form of shape)
+- K-Nearest Neighbors
+- Decision Tree
+- Naive Bayes
+- Support Vector Machines
+
+can be used to solve both regression and classification problems.
+
+However, there exists a family of ML algorithms that are tailor-made for regression only, such as:
+
+- Logistic regression
+- Simple Linear Regression
+- Multiple Linear Regression
+- Poisson Regression
+- Polynomial Regression
+
+## Evaluation
+
+Assess how well the model performs comparing the prediction with the real value in some way. There are several ways to do so.
+
+The dataset used to test our model must be different from the one used to build it.
+
+In Supervised Learning our goal is to predict labels, we assess the accuracy based on how well is capable to predict (i.e. measure of the error)
+
+In Unsupervised Learning this is more of a subjective assessment. A good model is the one that provides results that makes sense to us.
+
+Based on how well the model performs, we may need to iterate between the stages multiple times.
+
+### Regression Evaluation
+
+### Classification Evaluation
+
+## Production and Monitoring
+
+Once built a model and evaluated, we can now deploy it to production.
+
+Exposing a model to production is not just a "place it there and let it run" operation. The model need to be monitored to make sure it keeps performing consistently. Also, the model must be updated overtime, because new information that were previously unknown can now affect future predictions.
