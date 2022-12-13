@@ -137,12 +137,6 @@ Logistic Regression or Linear Regression are not immune to Multicollinearity pro
 
 Fix: you can either remove the feature or use dimension reduction algorightm such as Principle Component Analysis (PCA).
 
-## Questions
-
-* When to apply scaling?
-* Do we transform the train set only or the test set too?
-* If we transform the train set only, when we do prediction should the data be transformed or not?
-
 ## Concepts
 * Accuracy
 * Precision/Recall curve
