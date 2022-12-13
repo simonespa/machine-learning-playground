@@ -5,36 +5,42 @@
 1. Understand the problem. What's the current solution and what's business objective?
 2. Decide whether this is something worth employing ML or a less sofisticated automation job.
 3. If positive, choose the right approach by answering few questions
-  * Is it supervised, unsupervised or reinforcement learning?
-  * Is it a classification or regression task?
-  * Is it a batch, online or incremental learning?
+
+- Is it supervised, unsupervised or reinforcement learning?
+- Is it a classification or regression task?
+- Is it a batch, online or incremental learning?
+
 4. Select a performance measure for the chosen approach
-* Check if the class is imbalanced if is a classification problem
-* Decide what to include in the GridSearch
- - Dataset split ratio
- - Whether to use stratified or not
- - Missing data imputation strategy
- - Feature engineering
- - Categorical encoding
- - Hyperparameters
+
+- Check if the class is imbalanced if is a classification problem
+- Decide what to include in the GridSearch
+
+* Dataset split ratio
+* Whether to use stratified or not
+* Missing data imputation strategy
+* Feature engineering
+* Categorical encoding
+* Hyperparameters
 
 ## Data preparation
-* Deal with missing data
+
+- Deal with missing data
   - Remove the instances with missing data
   - Remove the columns that have missing data
   - Fill the missing data with a value (zero, the mean, etc.)
-* Categorical feature encoding
-* Feature selection (choose the best predictors)
+- Categorical feature encoding
+- Feature selection (choose the best predictors)
   - train faster
   - reduce model complexity (easier to interpret)
   - improves prediction accuracy
   - reduces overfitting
-* Feature engineering (create new features, combine existing one)
-* Feature scaling
-* With classification problems, find the correlation of the class with other features.
+- Feature engineering (create new features, combine existing one)
+- Feature scaling
+- With classification problems, find the correlation of the class with other features.
 
 ## Feature selection
-Via "univariate selection". Statistical tests (e.g.  chi-squared test) that select independent features that have the strongest relationship with the target feature.
+
+Via "univariate selection". Statistical tests (e.g. chi-squared test) that select independent features that have the strongest relationship with the target feature.
 
 Via "feature importance" that gives a score for each feature of the dataset. The higher the score the more important or relevant is the feature to in respect of the target one. This is built-in with the tree-based classifiers such as Random Forest and Extra Tree.
 
@@ -67,8 +73,9 @@ ted. Scikit-Learn provides a transformer called StandardScaler for standardizati
 ## Performance measures for regression
 
 Performance measures for regression problems is the so called "cost function". It can be:
-* Root Mean Square Error (RMSE) - preferred in general when there are no or few outliers like in a bell-shaped curve
-* Mean Absolute Error (MAE) - preferred when there are many outliers (it's less susceptible)
+
+- Root Mean Square Error (RMSE) - preferred in general when there are no or few outliers like in a bell-shaped curve
+- Mean Absolute Error (MAE) - preferred when there are many outliers (it's less susceptible)
 
 We don't need to scale the target value, but only the other features.
 
@@ -79,6 +86,7 @@ Use the "gradient descent" to find the optimum set of parameters of the hypothes
 We can use a modified cost function and as a consequence gradient descend.
 
 More sophisticated and faster ways to optimize the θ parameters of the hypothesis function are:
+
 - Conjugate gradient
 - BFGS
 - L-BFGS
@@ -108,8 +116,9 @@ $$recall = \frac{TP}{TP + FN}$$
 ![Confusion Matrix](confusion-matrix.png)
 
 Recap:
-* Precision:
-* Recall: true positive rate
+
+- Precision:
+- Recall: true positive rate
 
 ### F1 score
 
@@ -138,14 +147,15 @@ Logistic Regression or Linear Regression are not immune to Multicollinearity pro
 Fix: you can either remove the feature or use dimension reduction algorightm such as Principle Component Analysis (PCA).
 
 ## Concepts
-* Accuracy
-* Precision/Recall curve
-* Receiver Operating Characteristic (ROC curve)
-* Area Under the Curve (AUC)
-* one-versus-all (OvA) strategy (a.k.a. one-versus-the-rest) for binary classifiers
-* one-versus-one (OvO) strategy for binary classifiers
-* Scikit-Learn "predict_proba()" vs "decision_function()"
-* `decision_function()` method returns a score for each instance, and then make predictions based on those scores using any threshold you want
+
+- Accuracy
+- Precision/Recall curve
+- Receiver Operating Characteristic (ROC curve)
+- Area Under the Curve (AUC)
+- one-versus-all (OvA) strategy (a.k.a. one-versus-the-rest) for binary classifiers
+- one-versus-one (OvO) strategy for binary classifiers
+- Scikit-Learn "predict_proba()" vs "decision_function()"
+- `decision_function()` method returns a score for each instance, and then make predictions based on those scores using any threshold you want
 
 Scikit-Learn classifiers have either `decision_function()` or `predict_proba()` method. The `predict_proba()` method returns an array containing a row per instance and a column per class, each containing the probability that the given instance belongs to the given class.
 
@@ -160,6 +170,7 @@ You can also use multiple binary classifiers to perform multiclass classificatio
 Confirmation bias is the tendency to search for, interpret, favor, and recall information in a way that confirms or supports one's prior beliefs or values.
 
 Specific effects:
+
 - attitude polarization (when a disagreement becomes more extreme even though the different parties are exposed to the same evidence)
 - belief perseverance (when beliefs persist after the evidence for them is shown to be false)
 - the irrational primacy effect (a greater reliance on information encountered early in a series)
