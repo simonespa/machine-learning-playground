@@ -1,10 +1,10 @@
 - [Machine Learning Playground](#machine-learning-playground)
-  * [Getting started with Virtualenv](#getting-started-with-virtualenv)
-  * [Getting started with Anaconda](#getting-started-with-anaconda)
-  * [Dependencies](#dependencies)
-  * [Other Python libraries](#other-python-libraries)
-  * [How to generate the requirements file](#how-to-generate-the-requirements-file)
-  * [Useful PIP commands](#useful-pip-commands)
+  - [Getting started with Virtualenv](#getting-started-with-virtualenv)
+  - [Getting started with Anaconda](#getting-started-with-anaconda)
+  - [Dependencies](#dependencies)
+  - [Other Python libraries](#other-python-libraries)
+  - [How to generate the requirements file](#how-to-generate-the-requirements-file)
+  - [Useful PIP commands](#useful-pip-commands)
 
 # Machine Learning Playground
 
@@ -70,9 +70,9 @@ deactivate
 
 ## Getting started with Anaconda
 
-* Download and install [Anaconda](https://www.anaconda.com) on your machine
-* Start the [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/)
-* Install and launch the Jupyter notebook or JupyterLab from the "home" tab
+- Download and install [Anaconda](https://www.anaconda.com) on your machine
+- Start the [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/)
+- Install and launch the Jupyter notebook or JupyterLab from the "home" tab
 
 ## Activate code formatting
 
@@ -87,30 +87,31 @@ jupyter nbextension enable jupyter-black-master/jupyter-black
 
 This is the list of libraries included in the `requirements.txt` file.
 
-* [Jupyter](https://jupyter.org)
-* [JupyterLab](https://jupyter.org)
-* [NumPy](https://numpy.org)
-* [Pandas](https://pandas.pydata.org)
-* [SciPy](https://scipy.org)
-* [Matplotlib](https://matplotlib.org)
-* [Seaborn](https://seaborn.pydata.org)
-* [Scikit-Learn](https://scikit-learn.org)
-* [TensorFlow](https://www.tensorflow.org)
-* [PyTorch](https://pytorch.org)
-* [Keras](https://keras.io)
+- [Jupyter](https://jupyter.org)
+- [JupyterLab](https://jupyter.org)
+- [NumPy](https://numpy.org)
+- [Pandas](https://pandas.pydata.org)
+- [SciPy](https://scipy.org)
+- [Matplotlib](https://matplotlib.org)
+- [Seaborn](https://seaborn.pydata.org)
+- [Scikit-Learn](https://scikit-learn.org)
+- [TensorFlow](https://www.tensorflow.org)
+- [PyTorch](https://pytorch.org)
+- [Keras](https://keras.io)
 
 ```
 notebook jupyterlab numpy pandas scipy matplotlib seaborn scikit-learn tensorflow torch torchvision torchaudio
 ```
+
 ## Other Python libraries
 
 This is a list of other useful Python libraries not included in this project.
 
-* [Caffe](https://caffe.berkeleyvision.org)
-* [Theano](https://theano-pymc.readthedocs.io/en/latest)
-* [Ggplot](https://ggplot2.tidyverse.org/index.html)
-* [Dplyr](https://dplyr.tidyverse.org/)
-* [Tidyr](https://tidyr.tidyverse.org/)
+- [Caffe](https://caffe.berkeleyvision.org)
+- [Theano](https://theano-pymc.readthedocs.io/en/latest)
+- [Ggplot](https://ggplot2.tidyverse.org/index.html)
+- [Dplyr](https://dplyr.tidyverse.org/)
+- [Tidyr](https://tidyr.tidyverse.org/)
 
 ## How to generate the requirements file
 
@@ -147,3 +148,7 @@ To "show" the details of a specific library
 ```
 pip show numpy
 ```
+
+## References
+
+- https://github.com/ageron/handson-ml
