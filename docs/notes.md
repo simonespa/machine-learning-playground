@@ -175,3 +175,10 @@ People may show confirmation bias because they are pragmatically assessing the c
 ## Inference methods
 
 Deductive reasoning, or deduction, is making an inference based on widely accepted facts or premises. If a beverage is defined as "drinkable through a straw," one could use deduction to determine soup to be a beverage. Inductive reasoning, or induction, is making an inference based on an observation, often of a sample. You can induce that the soup is tasty if you observe all of your friends consuming it. Abductive reasoning, or abduction, is making a probable conclusion from what you know. If you see an abandoned bowl of hot soup on the table, you can use abduction to conclude the owner of the soup is likely returning soon.
+
+## Holdout validation and Testing
+
+1. Train multiple models with various hyperparameters on the reduced training set (i.e., the full training set minus the validation set)
+2. Select the model/hyperparameters that performs best on the validation set for each different algorithm
+3. Train the best model for each algorithm on the full training set (including the validation set) and this gives you the final models
+4. Lastly, evaluate the final models on the test set to get an estimate of the generalization error and choose the one that performs best

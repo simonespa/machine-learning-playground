@@ -8,6 +8,7 @@
   - Sampling noise
 - Nonrepresentative Training Data
   - Sampling bias
+  - Nonresponsive bias
 - Poor-Quality Data
   - Training data is full of errors and noise
   - Missing data
