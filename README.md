@@ -1,52 +1,52 @@
 - [Machine Learning Playground](#machine-learning-playground)
-  - [Getting started with Virtualenv](#getting-started-with-virtualenv)
+  - [Python prerequisites](#python-prerequisites)
+  - [Getting started with PIP and Virtualenv](#getting-started-with-pip-and-virtualenv)
   - [Getting started with Anaconda](#getting-started-with-anaconda)
+  - [Activate code formatting](#activate-code-formatting)
   - [Dependencies](#dependencies)
   - [Other Python libraries](#other-python-libraries)
   - [How to generate the requirements file](#how-to-generate-the-requirements-file)
+  - [How to upgrade the dependencies](#how-to-upgrade-the-dependencies)
   - [Useful PIP commands](#useful-pip-commands)
+  - [References](#references)
 
 # Machine Learning Playground
 
-A playground repository to practice machine learning and data science techniques and algorithms using the most popular Python libraries for the job.
+A personal playground repository to practice machine learning and data science techniques and algorithms using the most popular Python libraries for the job. I also use this repo to collect notes and learnings I acuiqre while studying and practicing.
 
 The notebook exercises are written with [Jupyter](https://jupyter.org/). You can also use [Kaggle](https://www.kaggle.com) or [Google Colab](https://colab.research.google.com) to edit them on the cloud.
 
-## Getting started with Virtualenv
+## Python prerequisites
 
-Make sure to have the latest Python 3.x installed on your machine. Consider using [Pyenv](https://github.com/pyenv/pyenv#installation) to manage your Python versions.
+Make sure to have the latest stable version of `Python` 3.x and `pip` installed on your machine. Consider using [Pyenv](https://github.com/pyenv/pyenv#installation) to manage your Python versions.
 
-This section will guide you through the setup of an isolated Python environment for this project.
+The desired Python version can now be set by running `pyenv install 3.n.m`, where `n` and `m` are the minor and patch version respectively. If you are not sure which version to install, you can check the available ones by running `pyenv install --list`.
 
-Install [Virtualenv](https://pypi.org/project/virtualenv/) (read the [installation](https://virtualenv.pypa.io/en/latest/installation.html) documentation)
+## Getting started with PIP and Virtualenv
 
-Create a new virtual environment
+Install [Virtualenv](https://pypi.org/project/virtualenv/) in order to setup an isolated virtual environment to manage the Python project and dependencies (read this [installation](https://virtualenv.pypa.io/en/latest/installation.html) guide on how to).
 
-```
+A virtual environment need to be set for this project with a clean installation of Python. The following command do so, by creating a folder called `.env` (which is automatically excluded from revision control) containing a vanilla installation of Python with just the initial depdendencies installed.
+
+```sh
 virtualenv .env
 ```
 
 Enable the virtual environment
 
-```
+```sh
 source .env/bin/activate
 ```
 
-or
+Check the python interpreter used is the one from the virtual environment
 
-```
-. .env/bin/activate
-```
-
-Confirm you’re using the virtual environment by checking the location of your Python interpreter
-
-```
+```sh
 which python
 ```
 
-Install the dependencies
+Install the required dependencies
 
-```
+```sh
 pip install -r requirements.txt
 ```
 
@@ -62,11 +62,7 @@ or
 jupyter lab
 ```
 
-Once you finish with this project, you can disable the virtual environment
-
-```
-deactivate
-```
+> NOTE: remember to deactivate the virtual environment by running the `deactivate` command once finished or if you switch project. If you don't do this and run `python` in another project through the same terminal session, you'll be running the same local version of Python with dependencies you may not want or need.
 
 ## Getting started with Anaconda
 
