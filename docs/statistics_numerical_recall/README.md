@@ -2,9 +2,27 @@
 
 ## Mean, median and mode
 
-* The mean is the average of a data set.
-* The median is the middle of the set of numbers.
-* The mode is the most common number in a data set.
+- The mean is the average of a data set.
+- The median is the middle of the set of numbers.
+- The mode is the most common number in a data set.
+
+## Standard Deviation
+
+The standard deviation is generally denoted σ (the Greek letter sigma), and it is the square root of the var‐ iance, which is the average of the squared deviation from the mean. When a feature has a bell-shaped normal distribution (also called a Gaussian distribution), which is very common, the “68-95-99.7” rule applies: about 68% of the values fall within 1σ of the mean, 95% within 2σ, and 99.7% within 3σ.
+
+## Percentiles
+
+A percentile indicates **the value below which a given percentage of observations in a group falls**.
+
+For example, given the following table:
+
+| Stats | Age |
+| ----- | --- |
+| 25%   | 18  |
+| 50%   | 29  |
+| 75%   | 37  |
+
+you can read its data as follows: 25% of the population have an age lower than 18, while 50% are lower than 29 and 75% are lower than 37. These are often called the 25th percentile (or 1st quartile), the 50th percentile (or 2nd quartile or median), and the 75th percentile (or 3rd quartile).
 
 ## Skewed distributions
 
