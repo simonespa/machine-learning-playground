@@ -151,4 +151,5 @@ pip show numpy
 
 ## References
 
+- https://learnpython.org
 - https://github.com/ageron/handson-ml

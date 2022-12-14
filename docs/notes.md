@@ -148,12 +148,6 @@ Fix: you can either remove the feature or use dimension reduction algorightm suc
 
 ## Concepts
 
-- Accuracy
-- Precision/Recall curve
-- Receiver Operating Characteristic (ROC curve)
-- Area Under the Curve (AUC)
-- one-versus-all (OvA) strategy (a.k.a. one-versus-the-rest) for binary classifiers
-- one-versus-one (OvO) strategy for binary classifiers
 - Scikit-Learn "predict_proba()" vs "decision_function()"
 - `decision_function()` method returns a score for each instance, and then make predictions based on those scores using any threshold you want
 
