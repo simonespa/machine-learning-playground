@@ -51,11 +51,14 @@ Note: try to get insights from a field expert for these steps.
 3. Study each attribute and its characteristics:
 
 - Name
-- Type (categorical, int/float, bounded/unbounded, text, structured, etc.)
+- Data type (categorical, numerical, bounded/unbounded, text, structured, etc.)
 - % of missing values
-- Noisiness and type of noise (stochastic, outliers, rounding errors, etc.)
-- Possibly useful for the task?
-- Type of distribution (Gaussian, uniform, logarithmic, etc.)
+- % and type of noise (stochastic, outliers, rounding errors, etc.)
+- Distribution (Gaussian, uniform, logarithmic, etc.)
+- What is this data representing (e.g. weight, unit count, money, etc.)
+- What is its unit of measure?
+- Are the values already manipulated/pre-processed (e.g. scaled, capped, log, etc.)?
+- Is it useful for prediction (ask domain expert)
 
 4. For supervised learning tasks, identify the target attribute(s).
 5. Visualize the data.
@@ -78,8 +81,8 @@ Notes:
 
 1. Data cleaning:
 
-- Fix or remove outliers (optional).
-- Fill in missing values (e.g., with zero, mean, median...) or drop their rows (or columns).
+- Fix or remove noise
+- Fix or remove missing values
 
 2. Feature selection (optional):
 
