@@ -182,3 +182,7 @@ Deductive reasoning, or deduction, is making an inference based on widely accept
 2. Select the model/hyperparameters that performs best on the validation set for each different algorithm
 3. Train the best model for each algorithm on the full training set (including the validation set) and this gives you the final models
 4. Lastly, evaluate the final models on the test set to get an estimate of the generalization error and choose the one that performs best
+
+## Correlation Coefficient
+
+The correlation coefficient only measures linear correlations but misses nonlinear relationships.

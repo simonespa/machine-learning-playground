@@ -92,7 +92,6 @@ Easy to debug:
       col1 = dataset.col2 + dataset.col3,
       col5 = dataset.col4.fillna('Other').astype('category')
     )
-    .
 )
 ```
 
@@ -118,7 +117,7 @@ To prevent unintended operations - i.e. assigning a value to a view thinking is 
 
 ## The `apply` method
 
-As a general rule of thumb, try not to use the `apply` method if you can.
+As a general rule of thumb, try not to use the `apply` method if you can, unless you have to.
 
 Because we are passing a Python function to the `apply` method, Pandas is going to get each individual entry from the DataFrame, convert it in a Python object, pass the entry as a parameter and manipulate it and finally convert the result back to the Pandas original data type. This overhead makes this method slow, compared to a more Pandas-oriented approach.
 

@@ -82,7 +82,7 @@ Notes:
 1. Data cleaning:
 
 - Fix or remove noise
-- Fix or remove missing values
+- Fix or remove missing valuesx
 
 2. Feature selection (optional):
 
