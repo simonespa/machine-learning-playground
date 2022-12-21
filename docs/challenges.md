@@ -9,6 +9,7 @@
 - Nonrepresentative Training Data
   - Sampling bias
   - Nonresponsive bias
+  - data mismatch between test and production (the data used for test comes from a dataset which is not representative of the real-life live data)
 - Poor-Quality Data
   - Training data is full of errors and noise
   - Missing data

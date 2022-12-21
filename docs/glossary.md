@@ -19,3 +19,4 @@
 - one-versus-all (OvA) strategy (a.k.a. one-versus-the-rest) for binary classifiers
 - one-versus-one (OvO) strategy for binary classifiers
 - Generalization error: the error rate of prediction on new cases. This value can be estimated.
+- holdout validation (validation test)
