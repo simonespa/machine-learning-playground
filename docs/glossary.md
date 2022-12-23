@@ -1,9 +1,10 @@
 # Glossary
 
 - Supervised vs Unsupervised learning
-- Batch vs Online learning
+- Offline (batch) vs Online learning
 - Instance-based vs Model-based learning
-- Cost function
+- Cost function vs Utility function (a.k.a fitness or goodness-of-fit)
+- Collinearity, multicollinearity, correlation
 - Feature selection
 - Feature extraction
 - Feature engineering
