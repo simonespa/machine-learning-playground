@@ -52,7 +52,7 @@ An interesting one to look at is the accuracy of the positive predictions. This 
 
 $$precision = \frac{TP}{TP + FP}$$
 
-A trivial way to have perfect precision is to make one single positive prediction and ensure it is correct (precision = 1/1 = 100%). This would not be very useful since the classifier would ignore all but one positive instance. So precision is typically used along with another metric named recall, also called sensitivity or true positive rate (TPR): this is the ratio of positive instances that are correctly detected by the classifier.
+A trivial way to have perfect precision is to make one single positive prediction and ensure it is correct (precision = 1/1 = 100%). This would not be very useful since the classifier would ignore all but one positive instance. So precision is typically used along with another metric named **recall**, also called **sensitivity** or **true positive rate (TPR)**. this is the ratio of positive instances that are correctly detected by the classifier.
 
 $$recall = \frac{TP}{TP + FN}$$
 
