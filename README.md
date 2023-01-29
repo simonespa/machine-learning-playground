@@ -93,13 +93,14 @@ This is the list of libraries included in the `requirements.txt` file.
 - [Pandas](https://pandas.pydata.org)
 - [Matplotlib](https://matplotlib.org)
 - [Seaborn](https://seaborn.pydata.org)
+- [Altair](https://altair-viz.github.io)
 - [Scikit-Learn](https://scikit-learn.org)
 - [TensorFlow](https://www.tensorflow.org)
 - [Keras](https://keras.io)
 - [PyTorch](https://pytorch.org)
 
 ```
-pip install notebook jupyterlab numpy scipy sympy pandas matplotlib seaborn scikit-learn tensorflow torch torchvision torchaudio
+pip install notebook jupyterlab numpy scipy sympy pandas matplotlib seaborn altair scikit-learn tensorflow torch torchvision torchaudio
 ```
 
 ## Other Python libraries
