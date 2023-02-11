@@ -122,3 +122,5 @@ Deductive reasoning, or deduction, is making an inference based on widely accept
 ## Correlation Coefficient
 
 The correlation coefficient only measures linear correlations but misses nonlinear relationships.
+
+## Partial Derivatives
