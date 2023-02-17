@@ -24,6 +24,8 @@ To recap:
 - Root Mean Square Error (RMSE) - preferred in general when there are no or few outliers like in a bell-shaped curve
 - Mean Absolute Error (MAE) - preferred when there are many outliers (it's less susceptible)
 
+Ref: https://builtin.com/machine-learning/cost-function
+
 ## Logistic regression
 
 We can use a modified cost function and as a consequence gradient descend.

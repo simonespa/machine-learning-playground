@@ -1,5 +1,7 @@
 # TensorFlow References
 
+Load CSV data: https://www.tensorflow.org/tutorials/load_data/csv
+## Other
 - https://towardsdatascience.com/introduction-on-tensorflow-2-0-bd99eebcdad5
 - https://towardsdatascience.com/a-quick-introduction-to-tensorflow-2-0-for-deep-learning-e740ca2e974c
 - https://www.youtube.com/watch?v=zL3jjTtHklM

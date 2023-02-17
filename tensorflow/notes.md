@@ -60,3 +60,8 @@ model.fit(xs, ys, epochs=50)
 cloud_logger.info(str(model.predict([10.0])))
 
 ```
+
+## How NN learns
+
+During training, weights are updated by using the partial derivative of the loss function with respect to each individual weight.
+During the forward pass, the opeerations are recorded, so that during the backward pass the list of operations is traversed in reverse order to compute those gradients.
