@@ -104,9 +104,9 @@ This is the list of libraries included in the `requirements.txt` file.
 pip install notebook jupyterlab numpy scipy sympy pandas matplotlib seaborn altair plotly scikit-learn tensorflow torch torchvision torchaudio
 ```
 
-## Library radar
+## Tech Radar
 
-This is a list of other useful Python libraries not included in this project.
+Other interesting stuff worth investigating.
 
 - [Caffe](https://caffe.berkeleyvision.org)
 - [NLTK](https://www.nltk.org)
@@ -114,6 +114,9 @@ This is a list of other useful Python libraries not included in this project.
 - [Ggplot](https://ggplot2.tidyverse.org/index.html)
 - [Dplyr](https://dplyr.tidyverse.org)
 - [Tidyr](https://tidyr.tidyverse.org)
+- [SpaCy](https://spacy.io)
+- [Apache Spark](https://spark.apache.org)
+- [mlflow](https://mlflow.org)
 
 ## How to generate the requirements file
 
