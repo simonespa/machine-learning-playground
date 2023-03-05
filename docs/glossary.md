@@ -24,3 +24,7 @@
 - softmax
 - logit
 - relu
+- Unsupervised Learning: KMeans, hierarchical clustering, DBSCAN, PCA, t-SNE
+- Time Series Analysis
+- Ensemble Methods: random forests, lightgbm and xgboost
+- bias/variance

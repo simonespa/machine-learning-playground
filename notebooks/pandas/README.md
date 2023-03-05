@@ -7,7 +7,7 @@
 - [DataFrame.groupby](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
 - [DataFrame.sort_values](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html)
 
-## Methods
+## DataFrame
 - describe, info, head, sample, tail
 - loc vs iloc
 - apply
@@ -19,6 +19,7 @@
 - MultiIndex (from_tuple, from_arrays)
 - crosstab
 - cut, qcut, get_dummies, factorize
+- values[0]
 
 ## GroupBy
 - count vs size
