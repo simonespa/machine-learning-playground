@@ -12,7 +12,7 @@
 
 # Machine Learning Playground
 
-A personal playground repository to practice machine learning and data science techniques and algorithms using the most popular Python libraries for the job. I also use this repo to collect notes and learnings I acuiqre while studying and practicing.
+A personal playground repository to practice machine learning and data science techniques and algorithms using the most popular Python libraries for the job. I also use this repo to collect notes and learnings while studying and practicing.
 
 The notebook exercises are written with [Jupyter](https://jupyter.org/). You can also use [Kaggle](https://www.kaggle.com) or [Google Colab](https://colab.research.google.com) to edit them on the cloud.
 
