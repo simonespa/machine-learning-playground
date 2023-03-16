@@ -31,13 +31,13 @@ You need to create a virtual environment with a clean installation of Python. Th
 Create a virtual environment (only if you don't have an `.env` folder yet)
 
 ```sh
-virtualenv .env
+virtualenv .python
 ```
 
 Enable the virtual environment
 
 ```sh
-source .env/bin/activate
+source .python/bin/activate
 ```
 
 Check the python interpreter used is the one from the virtual environment
