@@ -140,6 +140,18 @@ once upgraded run
 pip freeze > requirements.txt
 ```
 
+### To try
+
+```
+pip install --upgrade --force-reinstall -r requirements.txt
+```
+
+or ignore installed packages and install the new ones:
+
+```
+pip install --ignore-installed -r requirements.txt
+```
+
 ## Useful PIP commands
 
 To list all the installed libraries in `site-packages`

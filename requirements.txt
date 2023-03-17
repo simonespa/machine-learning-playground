@@ -27,8 +27,9 @@ defusedxml==0.7.1
 entrypoints==0.4
 executing==1.2.0
 fastjsonschema==2.16.3
+filelock==3.10.0
 flatbuffers==23.3.3
-fonttools==4.39.0
+fonttools==4.39.2
 fqdn==1.5.1
 gast==0.4.0
 google-auth==2.16.2
@@ -50,8 +51,8 @@ jsonschema==4.17.3
 jupyter-events==0.6.3
 jupyter-ydoc==0.2.3
 jupyter_client==8.0.3
-jupyter_core==5.2.0
-jupyter_server==2.4.0
+jupyter_core==5.3.0
+jupyter_server==2.5.0
 jupyter_server_fileid==0.8.0
 jupyter_server_terminals==0.4.4
 jupyter_server_ydoc==0.6.1
@@ -72,6 +73,7 @@ nbclient==0.7.2
 nbconvert==7.2.10
 nbformat==5.7.3
 nest-asyncio==1.5.6
+networkx==3.0
 notebook==6.5.3
 notebook_shim==0.2.2
 numpy==1.24.2
@@ -130,9 +132,9 @@ threadpoolctl==3.1.0
 tinycss2==1.2.1
 tomli==2.0.1
 toolz==0.12.0
-torch==1.13.1
-torchaudio==0.13.1
-torchvision==0.14.1
+torch==2.0.0
+torchaudio==2.0.1
+torchvision==0.15.1
 tornado==6.2
 traitlets==5.9.0
 typing_extensions==4.5.0
