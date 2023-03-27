@@ -28,7 +28,7 @@ Install [Virtualenv](https://pypi.org/project/virtualenv/) in order to setup an 
 
 You need to create a virtual environment with a clean installation of Python. The following command do so, by creating a folder called `.python` (which is automatically excluded from revision control) containing a vanilla installation of Python with just the initial depdendencies installed.
 
-Create a virtual environment (only if you don't have an `.env` folder yet)
+Create a virtual environment (only if you don't have an `.python` folder yet)
 
 ```sh
 virtualenv .python
