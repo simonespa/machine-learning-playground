@@ -26,7 +26,7 @@ The desired Python version can now be set by running `pyenv install 3.n.m`, wher
 
 Install [Virtualenv](https://pypi.org/project/virtualenv/) in order to setup an isolated virtual environment to manage the Python project and dependencies (read this [installation](https://virtualenv.pypa.io/en/latest/installation.html) guide on how to).
 
-You need to create a virtual environment with a clean installation of Python. The following command do so, by creating a folder called `.env` (which is automatically excluded from revision control) containing a vanilla installation of Python with just the initial depdendencies installed.
+You need to create a virtual environment with a clean installation of Python. The following command do so, by creating a folder called `.python` (which is automatically excluded from revision control) containing a vanilla installation of Python with just the initial depdendencies installed.
 
 Create a virtual environment (only if you don't have an `.env` folder yet)
 
