@@ -4,6 +4,8 @@
 
 This is the simplest feedforward neural network and does not contain any hidden layer.
 
+Also known as TLU (Threshold Logic Unit)
+
 ## Types of Neural Networks
 
 * Recurrent Neural Network (RNN)
