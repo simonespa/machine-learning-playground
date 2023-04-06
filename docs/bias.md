@@ -1,5 +1,7 @@
 # Bias
 
+Bias is a systematic error in the analysis.
+
 There are manny types of bias. To keep it short, I'll describe just some of them here and for completeness add some links.
 
 ## Sampling bias

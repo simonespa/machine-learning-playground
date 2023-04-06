@@ -8,7 +8,7 @@
 
 ## Standard Deviation
 
-The standard deviation is generally denoted σ (the Greek letter sigma), and it is the square root of the var‐ iance, which is the average of the squared deviation from the mean. When a feature has a bell-shaped normal distribution (also called a Gaussian distribution), which is very common, the “68-95-99.7” rule applies: about 68% of the values fall within 1σ of the mean, 95% within 2σ, and 99.7% within 3σ.
+The standard deviation is generally denoted σ (the Greek letter sigma), and it is the square root of the variance, which is the average of the squared deviation from the mean. When a feature has a bell-shaped normal distribution (also called a Gaussian distribution), which is very common, the “68-95-99.7” rule applies: about 68% of the values fall within 1σ of the mean, 95% within 2σ, and 99.7% within 3σ.
 
 ## Percentiles
 
@@ -55,3 +55,9 @@ A linear equation is described by $y = \theta_0 + \theta_1X_1$. This equation ha
 A _"multivariate linear equation"_ on the other hand will have more than one variables: $y = \theta_0 + \theta_1X_1 + \theta_2X_2 + ... + \theta_nX_n$
 
 In a univariate linear equation, $\theta_0$ represent the `y-intercept` and $\theta_1$ is the `gradient` (a.k.a. `slope` of the function).
+
+## Variance
+
+The variance of something is equal to the ratio between the sum of squares of these things over the number of these things, which is equal to the average sum of squares.
+
+The variance describes the variation or the residuals around 

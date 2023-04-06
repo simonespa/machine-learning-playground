@@ -1,0 +1,23 @@
+- Introduction to machine learning
+  - Glossary
+  - Topography: AI, ML, Datascience, Datamining
+  - Distinction between types: supervised/unsupervised/reinforcement, online/offline, ....
+    - Regression, Classification
+- Concept of prediction
+  - Introduce regression
+  - Draw the function with just one parameter
+  - Write the function
+  - Introduce the concept of error and cost function
+    - Intuition of what error menas on the graph
+    - Talk about the distance between the point and the projection on the approximation function
+    - Different type of costs function
+      - Just the distance, but then there are negative numbers
+      - The absolute value
+      - The square value
+  - Draw the cost function
+  - Talk about why convexity is key for optimisation
+    - Convex set: draw the shapes (circle, square, and something non convex) and show the line that joins 2 points
+    - Concept of epigraph: points
+    - Definition: a function F is convex iif its epigraph is a convex set
+    - Numerical definition: a function F is convex if the second-order derivative (F'') is greater than or equal to zero
+  - Explore the concept of momentum for non convex functions
