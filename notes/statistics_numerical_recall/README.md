@@ -60,4 +60,7 @@ In a univariate linear equation, $\theta_0$ represent the `y-intercept` and $\th
 
 The variance of something is equal to the ratio between the sum of squares of these things over the number of these things, which is equal to the average sum of squares.
 
-The variance describes the variation or the residuals around 
+The variance describes the variation or the residuals around
+
+## Variance vs Standard Deviation
+
