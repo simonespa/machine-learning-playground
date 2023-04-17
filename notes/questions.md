@@ -1,5 +1,7 @@
 # Questions
 
+## RMSE vs MSE
+
 ## Feature scaling
 - When to apply scaling?
 

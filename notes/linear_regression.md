@@ -1,7 +1,11 @@
 # Linear Regression
 
-The linear regression model is the linear equation that multiplies the feature by a single scaler.
+The linear regression model is the linear equation that multiplies the feature by a single saclar.
 There are different methods to calculate an optimal set of scalar values, and these methods are: gradient descent, OLS, etc.
+
+IMPORTANT: the formal assumption in linear regression is that the variables (features of the sample) don't interact with one another, meaning there is no correlation between them. This is a strong assumption we make in linear regression, which is why we apply partial derivatives.
+
+When we are solving for a given set of explanatory variables (the X variables), we only have one single scalar parameter for each of them.
 
 There are 3 types of gradient descent:
 
