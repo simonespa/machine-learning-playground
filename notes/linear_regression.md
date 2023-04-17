@@ -1,6 +1,31 @@
 # Linear Regression
 
-1. Use the least-square method to fit the data with a linear function
+The linear regression model is the linear equation that multiplies the feature by a single scaler.
+There are different methods to calculate an optimal set of scalar values, and these methods are: gradient descent, OLS, etc.
+
+There are 3 types of gradient descent:
+
+- Batch Gradient Descent
+- Stochastic Gradient Descent
+- Mini-batch Gradient Descent
+
+## Training epoch of Gradient Descent
+
+A training epoch in gradient descent includes the sum of the error and the updating of the model parameters.
+
+## Batch Gradient Descent
+
+Calculates the global error for each datapoint of the entire dataset, updating the model only after considering all the datapoints. This process is computationally efficient, but it could be prohibitive for massive datasets because it has to load and compute all the data in memory. This algorithm is stable and guaranteed to converge for convex cost functions.
+
+## Stochastic Gradient Descent
+
+This method runs an entire epoch for each datapoint. This means that the model parameters are updated on each data point, and this is what it gives it a lot of randomness. These frequent updates are not computationally efficient and can result in noisy gradients, but at the same time this characteristic could help the algorithm to escape local minima to reach the global one, because the path of the gradient reaches more places of the hyperplane, hence is more likely to escape a local minima. This is not guaranteed though, stochastic gradient descent can still get stuck.
+
+## Mini-batch Gradient Descent
+
+This is a hybrid approach that gets the best from the previous two Gradient Descent methods. It splits the dataset in smaller batches, and performs updates on each of those. This approach is balancing the benefit of both improving in efficiency compared to Stochastic GD with the use of batches, but also the benefit of having some randomness that may help escaping local minima if any.
+
+1. Fit the data with a linear function, by setting the initial weights to a random value
 2. Optimise the parameters using the Gradient Descent (or another optimisation algorithm)
 3. Calculate the coefficient of determination R^2 (r-squared) - how well the model represents the data
 4. Calculate a p-value for r-squared
