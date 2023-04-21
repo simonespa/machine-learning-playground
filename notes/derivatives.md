@@ -25,3 +25,14 @@ where we apply the limit for h tending to zero of the **difference quotient**. T
 - Quotient: $(\frac{f}{g})' = \frac{f'g - fg'}{g^2}$
 - Reciprocal: $(\frac{1}{f})' = \frac{-f'}{f^2}$
 - Chain rule: $(f(g))' = f'(g) g'$
+
+## Calculator
+
+Derivative calculator: https://calculator-derivative.com/partial-derivative-calculator
+
+## Reference
+
+Table of derivatives: https://math.stackexchange.com/questions/4181083/derivative-with-chain-rule-of-sum-of-squares-error-function-when-fitting-the-dat
+
+
+(y-(wx+b))^2

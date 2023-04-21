@@ -1,7 +1,7 @@
 # Linear Regression
 
-The linear regression model is the linear equation that multiplies the feature by a single saclar.
-There are different methods to calculate an optimal set of scalar values, and these methods are: gradient descent, OLS, etc.
+Linear regression models relationships between one single scalar repsonse and one or more explanatory variables.
+The explanatory variables are multiplied by a weight. There are different methods to calculate a optimal weights (a.k.a. to find the line of best fit), and these methods are: gradient descent, OLS, etc.
 
 IMPORTANT: the formal assumption in linear regression is that the variables (features of the sample) don't interact with one another, meaning there is no correlation between them. This is a strong assumption we make in linear regression, which is why we apply partial derivatives.
 
