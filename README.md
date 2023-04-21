@@ -91,6 +91,7 @@ This is the list of libraries included in the `requirements.txt` file.
 - [SciPy](https://scipy.org)
 - [SymPy](https://www.sympy.org/en/index.html)
 - [Pandas](https://pandas.pydata.org)
+- [Statsmodels](https://www.statsmodels.org)
 - [Matplotlib](https://matplotlib.org)
 - [Seaborn](https://seaborn.pydata.org)
 - [Altair](https://altair-viz.github.io)
@@ -101,7 +102,7 @@ This is the list of libraries included in the `requirements.txt` file.
 - [PyTorch](https://pytorch.org)
 
 ```
-pip install notebook jupyterlab numpy scipy sympy pandas matplotlib seaborn altair plotly scikit-learn tensorflow torch torchvision torchaudio
+pip install notebook jupyterlab numpy scipy sympy pandas statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow torch torchvision torchaudio
 ```
 
 ## Tech Radar
