@@ -125,8 +125,10 @@ There are different approaches to deal with missing data:
 
 - Remove all instances with features that have a missing value
 - Remove the features that have a lot of missing value (high percentage) only if from the data is clear that these features are not a strong predictor
-- Replace the missing data with a value that indicates the missing data (N/A, null, negative value, etc.)
+- Replace the missing data with a neutral value (i.e. imputation). It could be zero, mean, median, mode, etc.
 - Use a method known as “Imputation”. It’s a systematic approach to fill in missing data by using the most probable substitute value. There are several approaches. The **median imputation** for example substitutes the missing values with the median of the column.
+
+IMPORTANT: Be careful when removing the samples with missing value. There may be a reason why that value is missing, and that reason may be an important indicator. In that case, removing the sample may introduce bias.
 
 ### Handling Outliers
 
