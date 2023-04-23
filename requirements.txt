@@ -43,6 +43,7 @@ ImageHash==4.3.1
 ipykernel==6.21.3
 ipython==8.11.0
 ipython-genutils==0.2.0
+ipywidgets==8.0.6
 isoduration==20.11.0
 jedi==0.18.2
 Jinja2==3.1.2
@@ -60,6 +61,7 @@ jupyter_server_terminals==0.4.4
 jupyter_server_ydoc==0.6.1
 jupyterlab==3.6.1
 jupyterlab-pygments==0.2.2
+jupyterlab-widgets==3.0.7
 jupyterlab_server==2.20.0
 keras==2.11.0
 kiwisolver==1.4.4
@@ -158,6 +160,7 @@ webcolors==1.12
 webencodings==0.5.1
 websocket-client==1.5.1
 Werkzeug==2.2.3
+widgetsnbextension==4.0.7
 wrapt==1.15.0
 y-py==0.5.9
 ydata-profiling==4.1.2
