@@ -92,6 +92,7 @@ This is the list of the main libraries included in the `requirements.txt` file.
 - [SymPy](https://www.sympy.org/en/index.html)
 - [Pandas](https://pandas.pydata.org)
 - [Pandas Profiling](https://pypi.org/project/pandas-profiling/)
+- [Polars](https://www.pola.rs)
 - [Statsmodels](https://www.statsmodels.org)
 - [Matplotlib](https://matplotlib.org)
 - [Seaborn](https://seaborn.pydata.org)
@@ -103,7 +104,7 @@ This is the list of the main libraries included in the `requirements.txt` file.
 - [PyTorch](https://pytorch.org)
 
 ```
-pip install notebook jupyterlab numpy scipy sympy pandas pandas_profiling statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow torch torchvision torchaudio
+pip install notebook jupyterlab numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow torch torchvision torchaudio
 ```
 
 ## Tech Radar

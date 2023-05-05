@@ -11,3 +11,6 @@ Do not use just simple collaborative filtering algorithms or content based metho
   - https://arxiv.org/pdf/1906.08772.pdf
   - https://link.springer.com/article/10.1007/s11280-022-01031-4
   - https://journals.sagepub.com/doi/pdf/10.1177/08944393221149290
+
+## Interleaving
+Netflix Ref: https://netflixtechblog.com/interleaving-in-online-experiments-at-netflix-a04ee392ec55
