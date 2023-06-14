@@ -56,6 +56,7 @@ It reduces memory usage.
       'col2': 'float16',
       'col3': 'datetime64',
       'col4': 'bool',
+      'col5': 'category'
     })
 )
 ```
