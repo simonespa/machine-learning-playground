@@ -14,3 +14,11 @@ Do not use just simple collaborative filtering algorithms or content based metho
 
 ## Interleaving
 Netflix Ref: https://netflixtechblog.com/interleaving-in-online-experiments-at-netflix-a04ee392ec55
+
+## New users and new items
+- https://eugeneyan.com/writing/bandits/
+- https://link.springer.com/chapter/10.1007/978-3-319-27926-8_29
+- https://www.optimizely.com/optimization-glossary/multi-armed-bandit/#:~:text=One%20real%2Dworld%20example%20of,which%20order%20should%20they%20appear%3F
+
+## Metrics
+- Click Through Rate (CTR): https://www.optimizely.com/optimization-glossary/click-through-rate/
