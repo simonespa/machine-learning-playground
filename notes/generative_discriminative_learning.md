@@ -19,6 +19,8 @@ A generative model will look at a boundary in space that informs how liley for a
 
 ## discriminative
 
+A discriminitive model builds a decision boundary based on the feature of thee training input
+
 These type of models focus more on the decision boundary rather than characterising the entire population for each class.
 
 A discriminative approach doesn't care about datapoints far away from the boundary, they are not important for the model. What the model cares about is finding a boundary that separates the positives from the negatives.
@@ -31,3 +33,10 @@ This type of classifier is more powerful because it can ignore most of the data 
 ### Models examples
 - Logistic regression
 - KNN
+
+## Generative vs Descriminative
+
+- Quantity of data: discriminative will need more data to find a pattern from the features, generative is ok with fewer data
+- Discriminative model uses the conditional probability, generative uses the joint probability of x and y and then uses this to calculate the conditional probability of the classes given some new data
+- KNN uses the conditional probability for each class looking at the K nearest datapoints
+- Naive Bayes models the joint probability distribution of the features and the class and uses the Bayes theorem to calculate the conditional probability of the class given new data (posterior probability)

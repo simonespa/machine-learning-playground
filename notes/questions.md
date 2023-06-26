@@ -1,22 +1,12 @@
 # Questions
 
-## RMSE vs MSE
-
-## Feature scaling
-- When to apply scaling?
-
+## Imputation
+Q: Should I run the imputation on the entire dataset, or split it first in train/test, then fit the imputation on the training set only so that the mean calculated on the training data is used for both train and test?
+A:
 ## Data transformation
-- Do we transform the train set only or the test set too?
-- If we transform the train set only, when we do prediction should the data be transformed too?
-- In `sickit-learn` transformers have the `fit`, `transform` and `fit_transform` methods. The example have the fit being called before transforming the dataset. Shouldn't we transform before fitting?
+Q: If we transform the train set only, when we do prediction should the data be transformed too?
+A:
 
 ## Stratified sampling
-
-- When do we use stratifid sampling?
-- Should we stratify using a categorical attribute only or numerical are good too?
-- Can we use any random attribute or only the ones that are strong predictors/important attributes?
-- Can the label attribute for supervised learning be used for stratification?
-- Should it be only one label or can it be more than one used for stratification?
-
-## Dataset dimensions
-- What's the right proportion between the number of columns and rows?
+Q: When do we use stratifid sampling?
+A: For classification problems, when the class is imbalanced. This is because we want to give the model a fair chance to learn correlations for the minority class

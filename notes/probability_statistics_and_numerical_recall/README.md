@@ -62,5 +62,6 @@ The variance of something is equal to the ratio between the sum of squares of th
 
 The variance describes the variation or the residuals around
 
-## Variance vs Standard Deviation
+Why we divide the sum of the squared differences by (n-1)? https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1008&context=imseteach#:~:text=measures%20the%20squared%20deviations%20from,%2D1)%20rather%20than%20n.
 
+## Variance vs Standard Deviation

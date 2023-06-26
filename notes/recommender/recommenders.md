@@ -1,6 +1,6 @@
 # Recommenders
 
-Do not use just simple collaborative filtering algorithms or content based methods optimised for offline recall, make sure the recs are validated against user feedback.
+Do not use just simple collaborative filtering algorithms or content based methods optimised for offline recall, make sure the recs are validated against user feedback as well.
 
 ## Reference
 - https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-recommendation-engine-python/
