@@ -2,6 +2,13 @@
 
 Do not use just simple collaborative filtering algorithms or content based methods optimised for offline recall, make sure the recs are validated against user feedback as well.
 
+## Introduction
+- Introduction: https://towardsdatascience.com/introduction-to-recommender-systems-6c66cf15ada
+
+## A/B testing vs Multi-Armed Bandit
+- https://vwo.com/blog/multi-armed-bandit-algorithm/
+- https://www.optimizely.com/optimization-glossary/multi-armed-bandit/
+
 ## Reference
 - https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-recommendation-engine-python/
 - https://towardsdatascience.com/recommendation-systems-explained-a42fc60591ed
@@ -22,3 +29,6 @@ Netflix Ref: https://netflixtechblog.com/interleaving-in-online-experiments-at-n
 
 ## Metrics
 - Click Through Rate (CTR): https://www.optimizely.com/optimization-glossary/click-through-rate/
+
+## Types of Recommenders
+- Nvidia: https://www.nvidia.com/en-us/glossary/data-science/recommendation-system/#:~:text=A%20recommendation%20system%20is%20an,demographic%20information%2C%20and%20other%20factors.
