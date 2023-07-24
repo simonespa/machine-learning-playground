@@ -5,7 +5,7 @@
 - Regression trees
 - Linear regression
 - Support vector regression
-- LASSO / Ridge
+- LASSO / Ridge / ElasticNet
 - Deep learning
 - Random forests
 
@@ -53,5 +53,3 @@
 - Association rule learning
   - Apriori
   - Eclat
-
-## Reinforcement Learning
