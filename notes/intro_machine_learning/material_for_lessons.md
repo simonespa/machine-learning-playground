@@ -1,7 +1,7 @@
 - Introduction to machine learning
   - Glossary
   - Topography: AI, ML, Datascience, Datamining
-  - Distinction between types: supervised/unsupervised/reinforcement, online/offline, ....
+  - Distinction between types: supervised/unsupervised/semi-supervised/self-supervised/reinforcement, online/offline, deterministic/stochastic, discriminative/generative
     - Regression, Classification
 - Concept of prediction
   - Introduce regression
