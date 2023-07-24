@@ -104,7 +104,7 @@ This is the list of the main libraries included in the `requirements.txt` file.
 - [PyTorch](https://pytorch.org)
 
 ```
-pip install notebook jupyterlab voila ipywidgets numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow torch torchvision torchaudio shap xgboost
+pip install notebook jupyterlab voila ipywidgets numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow torch torchvision torchaudio shap xgboost 'awswrangler[redshift]'
 ```
 
 ## Tech Radar
