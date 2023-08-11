@@ -32,3 +32,10 @@ Netflix Ref: https://netflixtechblog.com/interleaving-in-online-experiments-at-n
 
 ## Types of Recommenders
 - Nvidia: https://www.nvidia.com/en-us/glossary/data-science/recommendation-system/#:~:text=A%20recommendation%20system%20is%20an,demographic%20information%2C%20and%20other%20factors.
+
+## Recommender Libraries
+- Microsoft: https://github.com/microsoft/recommenders
+- Surprise: https://surpriselib.com/
+
+## Recommender Algorithms
+- https://ai.plainenglish.io/how-to-improve-recommendations-for-highly-sparse-datasets-using-hybrid-recommender-systems-1a4366e65cff
