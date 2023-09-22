@@ -171,6 +171,8 @@ once upgraded run
 pip freeze > requirements.txt
 ```
 
+to lock the newly downloaded versions to the requirements file
+
 ### To try
 
 ```
