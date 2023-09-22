@@ -2,16 +2,15 @@
 
 # Machine Learning Playground
 
-This is a personal playground repository to practice machine learning, data science techniques and algorithms using the most popular Python libraries for the job. I also use this repo to collect and organise notes and learnings while studying and practicing.
+This is a personal playground repository to practice machine learning and data science techniques and algorithms using the most popular Python libraries for the job. I use this repo to collect and organise notes for a quick reference of things I learned during my studies.
 
-The notebook exercises are written with [Jupyter](https://jupyter.org/). You can also use [Kaggle](https://www.kaggle.com) or [Google Colab](https://colab.research.google.com) to edit them on the cloud.
+The notebooks are written using [Jupyter](https://jupyter.org/) on my local machine. You can also use [Kaggle](https://www.kaggle.com) or [Google Colab](https://colab.research.google.com) to edit them on the cloud.
 
 - [Notice](#notice)
 - [Credits](#credits)
 - [Python prerequisites](#python-prerequisites)
 - [Getting started with PIP and Virtualenv](#getting-started-with-pip-and-virtualenv)
 - [Getting started with Anaconda](#getting-started-with-anaconda)
-- [Activate code formatting](#activate-code-formatting)
 - [Dependencies](#dependencies)
 - [Tech Radar](#tech-radar)
 - [How to generate the requirements file](#how-to-generate-the-requirements-file)
