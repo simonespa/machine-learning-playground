@@ -1,20 +1,48 @@
-- [Machine Learning Playground](#machine-learning-playground)
-  - [Python prerequisites](#python-prerequisites)
-  - [Getting started with PIP and Virtualenv](#getting-started-with-pip-and-virtualenv)
-  - [Getting started with Anaconda](#getting-started-with-anaconda)
-  - [Activate code formatting](#activate-code-formatting)
-  - [Dependencies](#dependencies)
-  - [Other Python libraries](#other-python-libraries)
-  - [How to generate the requirements file](#how-to-generate-the-requirements-file)
-  - [How to upgrade the dependencies](#how-to-upgrade-the-dependencies)
-  - [Useful PIP commands](#useful-pip-commands)
-  - [References](#references)
-
 # Machine Learning Playground
 
-A personal playground repository to practice machine learning and data science techniques and algorithms using the most popular Python libraries for the job. I also use this repo to collect notes and learnings while studying and practicing.
+This is a personal playground repository to practice machine learning, data science techniques and algorithms using the most popular Python libraries for the job. I also use this repo to collect and organise notes and learnings while studying and practicing.
 
 The notebook exercises are written with [Jupyter](https://jupyter.org/). You can also use [Kaggle](https://www.kaggle.com) or [Google Colab](https://colab.research.google.com) to edit them on the cloud.
+
+- [Notice](#notice)
+- [Credits](#credits)
+- [Python prerequisites](#python-prerequisites)
+- [Getting started with PIP and Virtualenv](#getting-started-with-pip-and-virtualenv)
+- [Getting started with Anaconda](#getting-started-with-anaconda)
+- [Activate code formatting](#activate-code-formatting)
+- [Dependencies](#dependencies)
+- [Tech Radar](#tech-radar)
+- [How to generate the requirements file](#how-to-generate-the-requirements-file)
+- [How to upgrade the dependencies](#how-to-upgrade-the-dependencies)
+  - [To try](#to-try)
+- [Useful PIP commands](#useful-pip-commands)
+- [References](#references)
+
+## Notice
+
+📚 The resources contained in this repository are notes written down while studying topics of Machine Learning and Data Science and exercises I write to practice. They reflect my understanding of the topic and as such, **they are not meant to be used as an authoritative source of information and/or reference documentation about the subject they refer to**.
+
+🗒️ I take notes by summarising the concepts I read and/or watch. I also write stuff to conceptualise my own understanding of a broader topic or my thoughts about it. I even attempt to jot down ideas.
+
+📦 I've built this repo mainly for me to have a place where to store my notes so that I can revise and practice. I made it public because it doesn't hurt to have other people reading them in the hope it could be useful in the process. With this in mind, there are plenty of other excellent resources out there, more complete and accurate than this, so again, here I am.
+
+⚠️ Feel free to use these resources as you wish, according to the [LICENSE](./LICENSE), with the knowledge that inaccuracy may be likely. So, please use these resources with a pinch of salt, by knowing that they could contain mistakes. Please, always compare and integrate the concepts you read with other material you have access to, in order to make sure you are not inadvertently taking only my word for it.
+
+⛔ Any mistake, blunder, typo, inaccuracy - if present - is there in good faith. No hard feelings. If you care enough about this work though, please report any of the above to me by [raising an issue](https://github.com/simonespa/machine-learning-playground/issues) so that I can fix it. Even better, you can also [raise a Pull Request](https://github.com/simonespa/machine-learning-playground/pulls) if you like to propose a fix yourself.
+
+❤️ If you feel grateful about these resources and feel that this work may have helped you in any form or shape with your study, consider crediting this work a way to say thank you 😊
+
+## Credits
+
+I started to be interested in topics gravitating the Artificial Intelligence world since my academic studies at the [Università della Calabria](https://www.unical.it), when I was then studying topics like Intelligent Systems, Answer-Set Programming and this thing called Data Mining at the [Department of Mathematics and Informatics](https://demacs.unical.it/)
+
+I'm currently attending a Level 7 staff apprenticeship in AI and Data Science with [Cambridge Spark](https://www.cambridgespark.com/data-apprenticeships/level-7-ai-data-science) at the [BBC](https://www.bbc.co.uk/).
+
+I'm also expanding these concepts and beyond by reading and watching further material available on the internet (papers, resources, video).
+
+I'd like to give a shout out to [StatQuest](https://www.youtube.com/@statquest) with [Josh Starmer](https://www.linkedin.com/in/joshua-starmer-phd)". It's an excellent YouTube channel with a vast and "clearly explained" catalogue of concepts spanning from Statistics to Data Science and Machine Learning. I can personally say that I'm now able to grasp concepts like Encoder-Decoder and Transformer architecture thanks to Josh. Please, "checkout the quest" and subscribe, it's worth your time.
+
+I also attended courses on [LinkedIn Learning](https://www.linkedin.com/learning), [Pluralsight](https://www.pluralsight.com) and [Coursera](https://www.coursera.org) as well as training courses provided by the BBC, spanning from introduction to ML to TensorFlow and Keras to data manipulation and visualisation with Pandas, Matplotlib and Seaborn.
 
 ## Python prerequisites
 
