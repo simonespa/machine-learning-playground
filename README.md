@@ -30,7 +30,7 @@ The notebook exercises are written with [Jupyter](https://jupyter.org/). You can
 
 ⛔ Any mistake, blunder, typo, inaccuracy - if present - is there in good faith. No hard feelings. If you care enough about this work though, please report any of the above to me by [raising an issue](https://github.com/simonespa/machine-learning-playground/issues) so that I can fix it. Even better, you can also [raise a Pull Request](https://github.com/simonespa/machine-learning-playground/pulls) if you like to propose a fix yourself.
 
-❤️ If you feel grateful about these resources and feel that this work may have helped you in any form or shape with your study, consider crediting this work a way to say thank you 😊
+❤️ If you feel grateful about these resources and feel that this work may have helped you in any form or shape with your study, consider crediting this work as a way to say thank you 😊
 
 ## Credits
 
