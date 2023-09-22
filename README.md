@@ -132,6 +132,8 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [PyTorch](https://pytorch.org)
 - [XGBoost](https://xgboost.readthedocs.io)
 
+The full list of dependencies directly installed via PIP is the following:
+
 ```
 pip install notebook jupyterlab voila ipywidgets numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow torch torchvision torchaudio shap xgboost 'awswrangler[redshift]' black isort jupyterlab-code-formatter
 ```
