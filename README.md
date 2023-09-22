@@ -100,15 +100,6 @@ jupyter lab
 - Start the [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/)
 - Install and launch the Jupyter notebook or JupyterLab from the "home" tab
 
-## Activate code formatting
-
-Install and enable code formatting with [Black](https://pypi.org/project/black/) as a Jupyter extension
-
-```
-jupyter nbextension install https://github.com/drillan/jupyter-black/archive/master.zip --user
-jupyter nbextension enable jupyter-black-master/jupyter-black
-```
-
 ## Dependencies
 
 This is the list of the main DS libraries included in the `requirements.txt` file.
@@ -135,7 +126,7 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 The full list of dependencies directly installed via PIP is the following:
 
 ```
-pip install notebook jupyterlab voila ipywidgets numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow torch torchvision torchaudio shap xgboost 'awswrangler[redshift]' black isort jupyterlab-code-formatter
+pip install notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow torch torchvision torchaudio xgboost awswrangler black isort
 ```
 
 ## Tech Radar
