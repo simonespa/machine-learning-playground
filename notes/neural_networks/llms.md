@@ -72,6 +72,12 @@ For longer phrases, words that are input early can be forgotten.
 Basic RNNs run both long and short-term memories through a single path. LSTMs fix this problem by providing two separate paths for them.
 Even with separate paths though, if we have a lot of data, both paths have to carry a lot of information and this means that words at the start of the sequence can still get lost, because of the compressed fixed-size internal representation of the input.
 
+RNN can be slow during training and inference, because the input enter the network sequentially.
+
+RNN in a Seq2Seq sequence get the context only from the preceding word at any given time, so the context of the surrounding is lost. Even the variant where the context is gathered from both the preceding and the next word could suffer from a loss during encoding.
+
+This is where the Attention mechanism solve the problem of context loss for RNNs.
+
 ## Encoder-Decoder with Attention
 
 The main idea of "Attention" is to add a new set of direct path from the encoder to the decoder, one per input value. By doing so, the decoder can directly access the input values, no matter the length of the sequence.
