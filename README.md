@@ -111,7 +111,7 @@ jupyter nbextension enable jupyter-black-master/jupyter-black
 
 ## Dependencies
 
-This is the list of the main libraries included in the `requirements.txt` file.
+This is the list of the main DS libraries included in the `requirements.txt` file.
 
 - [Jupyter](https://jupyter.org)
 - [JupyterLab](https://jupyter.org)
@@ -130,9 +130,10 @@ This is the list of the main libraries included in the `requirements.txt` file.
 - [TensorFlow](https://www.tensorflow.org)
 - [Keras](https://keras.io)
 - [PyTorch](https://pytorch.org)
+- [XGBoost](https://xgboost.readthedocs.io)
 
 ```
-pip install notebook jupyterlab voila ipywidgets numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow torch torchvision torchaudio shap xgboost 'awswrangler[redshift]'
+pip install notebook jupyterlab voila ipywidgets numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow torch torchvision torchaudio shap xgboost 'awswrangler[redshift]' black isort jupyterlab-code-formatter
 ```
 
 ## Tech Radar
