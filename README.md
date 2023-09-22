@@ -40,7 +40,7 @@ I'm currently attending a Level 7 staff apprenticeship in AI and Data Science wi
 
 I'm also expanding these concepts and beyond by reading and watching further material available on the internet (papers, resources, video).
 
-I'd like to give a shout out to [StatQuest](https://www.youtube.com/@statquest) with [Josh Starmer](https://www.linkedin.com/in/joshua-starmer-phd)". It's an excellent YouTube channel with a vast and "clearly explained" catalogue of concepts spanning from Statistics to Data Science and Machine Learning. I can personally say that I'm now able to grasp concepts like Encoder-Decoder and Transformer architecture thanks to Josh. Please, "checkout the quest" and subscribe, it's worth your time.
+I'd like to give a shout out to [StatQuest](https://www.youtube.com/@statquest) with [Josh Starmer](https://www.linkedin.com/in/joshua-starmer-phd). It's an excellent YouTube channel with a vast and "clearly explained" catalogue of concepts spanning from Statistics to Data Science and Machine Learning. I can personally say that I'm now able to grasp concepts like Encoder-Decoder and Transformer architecture to give an example thanks to Josh. We don't know each other nor I get compensated to say this, so please, "checkout the quest" and subscribe, it's worth your time.
 
 I also attended courses on [LinkedIn Learning](https://www.linkedin.com/learning), [Pluralsight](https://www.pluralsight.com) and [Coursera](https://www.coursera.org) as well as training courses provided by the BBC, spanning from introduction to ML to TensorFlow and Keras to data manipulation and visualisation with Pandas, Matplotlib and Seaborn.
 
