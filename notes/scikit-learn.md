@@ -52,6 +52,13 @@ For supervised learning, this method takes as input arrays `X_test` and `y_test`
 
 An unsupervised estimator may also expose a `score` function to compute the likelihood of the given data under its model for example.
 
+### decision_function vs predict_proba
+
+Scikit-Learn classifiers have either `decision_function()` or `predict_proba()` method.
+
+- The `decision_function()` method returns a score for each instance, and then make predictions based on those scores using any threshold you like
+- The `predict_proba()` method returns an array containing a row per instance and a column per class, each containing the probability that the given instance belongs to
+
 ## Transformers
 
 Some estimators implement this interface to modify or filter data before feeding it to the learning algorithm.

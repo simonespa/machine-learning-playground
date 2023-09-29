@@ -123,11 +123,12 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [Keras](https://keras.io)
 - [PyTorch](https://pytorch.org)
 - [XGBoost](https://xgboost.readthedocs.io)
+- [tiktoken](https://github.com/openai/tiktoken)
 
 The full list of dependencies directly installed via PIP is the following:
 
 ```
-pip install notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost awswrangler black isort
+pip install notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost tiktoken awswrangler black isort kaggle
 ```
 
 ## Tech Radar

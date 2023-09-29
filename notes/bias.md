@@ -12,6 +12,19 @@ This bias is introduced when a sample is not representative of the overall popul
 
 It's a special type of **sampling bias** and occurs when non-responders from a sample differ in a meaningful way from the population.
 
+## Confirmation Bias
+
+Confirmation bias is the tendency to search for, interpret, favor, and recall information in a way that confirms or supports one's prior beliefs or values.
+
+Specific effects:
+
+- attitude polarization (when a disagreement becomes more extreme even though the different parties are exposed to the same evidence)
+- belief perseverance (when beliefs persist after the evidence for them is shown to be false)
+- the irrational primacy effect (a greater reliance on information encountered early in a series)
+- illusory correlation (when people falsely perceive an association between two events or situations).
+
+People may show confirmation bias because they are pragmatically assessing the costs of being wrong, rather than investigating in a neutral, scientific way.
+
 ## Types of biases
 
 - https://catalogofbias.org/biases/

@@ -7,14 +7,38 @@ Also models that use the distance or dot products between predictors: K-nearest 
 
 ## Normalization
 
-Normalization scales the feature values in a predefined interval. Usually [0, 1] or [-1, 1].
+Normalization - a.k.a. scaling normalization or min-max scaling - scales the feature values in a predefined interval. Usually [0, 1] or [-1, 1].
 
-Also known as Scaling Normalization, scales the feature using minimum and maximum values. The range is often between [0, 1] or [-1, 1] and it is useful when the feature distribution is not Gaussian (a.k.a. NOrmal or bell-shaped). Outliers in your data will be impacted by normalization because it needs a wide range to function correctly.
+ScikitLearn: [MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
+
+ This method is useful when the feature distribution is not Gaussian (a.k.a. NOrmal or bell-shaped). Outliers in your data will be impacted by normalization because it needs a wide range to function correctly.
+
+Min-max scaling (many people call this normalization) is quite simple: values are
+shifted and rescaled so that they end up ranging from 0 to 1. We do this by subtract‐
+ing the min value and dividing by the max minus the min. Scikit-Learn provides a
+transformer called MinMaxScaler for this. It has a feature_range hyperparameter
+that lets you change the range if you don’t want 0–1 for some reason.
 
 ## Standardization
 
-Standardization scales the feature values by subtracging the mean and dividing by the standard deviation.
+Also known as Z-score Normalization, standardization scales the feature values by subtracting the mean and dividing by the standard deviation.
 
-Also known as Z-score Normalization) scales the feature using the mean and the standard deviation. This is useful when the distribution is Gaussian.
+ScikitLearn: [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
 
-Scales for normalization fall between [0,1] and [-1,1]. Standardization has no range restrictions. When the algorithms don't make any assumptions about the distribution of the data, Normalization is taken into account. When algorithms create predictions about the data distribution, standardization is applied.
+This method is useful when the distribution is Gaussian.
+
+Standardization is quite different: first it subtracts the mean value (so standardized
+values always have a zero mean), and then it divides by the variance so that the result‐
+ing distribution has unit variance. Unlike min-max scaling, standardization does not
+bound values to a specific range, which may be a problem for some algorithms (e.g.,
+neural networks often expect an input value ranging from 0 to 1). However, standard‐
+ization is much less affected by outliers. For example, suppose a district had a median
+income equal to 100 (by mistake). Min-max scaling would then crush all the other
+values from 0–15 down to 0–0.15, whereas standardization would not be much affec‐
+ted. Scikit-Learn provides a transformer called StandardScaler for standardization.
+
+## Comparison
+
+- Normalization has an interval between [0,1] or [-1,1] while standardization has no range restrictions
+- Normalization is used when the algorithm doesn't make any assumptions about the data distribution
+- Standardization is used when the algorithm does predictions about the data distribution
