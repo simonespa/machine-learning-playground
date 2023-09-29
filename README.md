@@ -13,7 +13,6 @@ The notebooks are written using [Jupyter](https://jupyter.org/) on my local mach
 - [Tech Radar](#tech-radar)
 - [How to generate the requirements file](#how-to-generate-the-requirements-file)
 - [How to upgrade the dependencies](#how-to-upgrade-the-dependencies)
-  - [To try](#to-try)
 - [Useful PIP commands](#useful-pip-commands)
 - [References](#references)
 
