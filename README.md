@@ -19,17 +19,17 @@ The notebooks are written using [Jupyter](https://jupyter.org/) on my local mach
 
 ## Notice
 
-📚 The resources contained in this repository are notes written down while studying topics of Machine Learning and Data Science and exercises I write to practice. They reflect my understanding of the topic and as such, **they are not meant to be used as an authoritative source of information and/or reference documentation about the subject they refer to**.
+📚 The resources contained in this repository are notes written down while studying topics of Machine Learning and Data Science and exercises I wrote to practice. They reflect my understanding of the topic and as such, **they are not meant to be used as an authoritative source of information and/or reference documentation about the subject they refer to**.
 
-🗒️ I take notes by summarising the concepts I read and/or watch. I also write stuff to conceptualise my own understanding of a broader topic or my thoughts about it. I even attempt to jot down ideas.
+🗒️ I take notes by summarising the concepts I read and/or watch. I also put together pieces from different materials I consult about a specific topic. I write stuff to conceptualise my own understanding of a broader topic or my thoughts about it. I even attempt to jot down ideas.
 
-📦 I've built this repo mainly for me to have a place where to store my notes so that I can revise and practice. I made it public because it doesn't hurt to have other people reading them in the hope it could be useful in the process. With this in mind, there are plenty of other excellent resources out there, more complete and accurate than this, so again, here I am.
+📦 I've built this repository mainly for myself, to have a place where to collect my notes and to practice. I made it public because it doesn't hurt to give other people access to it, in the hope it could be useful in the process.
 
-⚠️ Feel free to use these resources as you wish, according to the [LICENSE](./LICENSE), with the knowledge that inaccuracy may be likely. So, please use these resources with a pinch of salt, by knowing that they could contain mistakes. Please, always compare and integrate the concepts you read with other material you have access to, in order to make sure you are not inadvertently taking only my word for it.
+⚠️ Feel free to use these resources as you wish - according to the [LICENSE](./LICENSE) - with the knowledge that inaccuracy may be likely. So, please use these resources with a pinch of salt, by knowing that they could contain mistakes. Please, always compare and integrate the concepts you read from this repo with other material you have access to (there is plenty of other excellent resources out there, more complete and accurate than this), in order to make sure you are not inadvertently taking only my word for it.
 
 ⛔ Any mistake, blunder, typo, inaccuracy - if present - is there in good faith. No hard feelings. If you care enough about this work though, please report any of the above to me by [raising an issue](https://github.com/simonespa/machine-learning-playground/issues) so that I can fix it. Even better, you can also [raise a Pull Request](https://github.com/simonespa/machine-learning-playground/pulls) if you like to propose a fix yourself.
 
-❤️ If you feel grateful about these resources and feel that this work may have helped you in any form or shape with your study, consider crediting this work as a way to say thank you 😊
+❤️ If you feel grateful about this collection and feel that this work may have helped you even so slightly in any form or shape with your study, consider crediting this repo as a way to say thank you 😊
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Machine Learning Playground</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/simonespa/machine-learning-playground" property="cc:attributionName" rel="cc:attributionURL">Simone Spaccarotella</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
@@ -41,7 +41,7 @@ I'm currently attending a Level 7 staff apprenticeship in AI and Data Science wi
 
 I'm also expanding these concepts and beyond by reading and watching further material available on the internet (papers, resources, video).
 
-I'd like to give a shout out to [StatQuest](https://www.youtube.com/@statquest) with [Josh Starmer](https://www.linkedin.com/in/joshua-starmer-phd). It's an excellent YouTube channel with a vast and "clearly explained" catalogue of concepts spanning from Statistics to Data Science and Machine Learning. I can personally say that I'm now able to grasp concepts like Encoder-Decoder and Transformer architecture to give an example thanks to Josh. We don't know each other nor I get compensated to say this, so please, "checkout the quest" and subscribe, it's worth your time.
+I'd like to give a shout out to [StatQuest](https://www.youtube.com/@statquest) with [Josh Starmer](https://www.linkedin.com/in/joshua-starmer-phd). It's an excellent YouTube channel with a vast and "clearly explained" catalogue of concepts spanning from Statistics to Data Science and Machine Learning. For example, I can personally say that I'm now able to grasp the main concepts behind Encoder-Decoder and Transformer architectures thanks to Josh. We don't know each other nor I get compensated to say this, so please, "checkout the quest" and subscribe, it's worth your time.
 
 I also attended courses on [LinkedIn Learning](https://www.linkedin.com/learning), [Pluralsight](https://www.pluralsight.com) and [Coursera](https://www.coursera.org) as well as training courses provided by the BBC, spanning from introduction to ML to TensorFlow and Keras to data manipulation and visualisation with Pandas, Matplotlib and Seaborn.
 
@@ -168,18 +168,6 @@ pip freeze > requirements.txt
 ```
 
 to lock the newly downloaded versions to the requirements file
-
-### To try
-
-```
-pip install --upgrade --force-reinstall -r requirements.txt
-```
-
-or ignore installed packages and install the new ones:
-
-```
-pip install --ignore-installed -r requirements.txt
-```
 
 ## Useful PIP commands
 
