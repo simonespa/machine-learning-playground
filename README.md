@@ -127,7 +127,7 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 The full list of dependencies directly installed via PIP is the following:
 
 ```
-pip install notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost tiktoken awswrangler black isort kaggle
+pip install notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost tiktoken awswrangler sagemaker black isort kaggle split-folders
 ```
 
 ## Tech Radar
