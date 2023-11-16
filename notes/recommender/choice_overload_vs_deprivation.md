@@ -7,9 +7,7 @@
   - how many items in a group and/or how many group in a page??? (to be validated)
   - should the groups of items be created dynamically by clustering recommended content under different categories, or should they be selected (still based on recommendation) from a large but predefined set? If the latter, should the preset be defined in type (e.g. because you liked ..., category-based, based on who is featured in it, based on mood, a combination of those) but dynamic in content??? (to be validated)
 
-## Guardrails
 
-Human should be able to control the output in two ways: with overrides or hints.
 
 ### Overrides
 

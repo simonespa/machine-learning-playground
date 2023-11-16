@@ -2,6 +2,8 @@
 
 The derivative of a function $f$ is the rate at which the function value is changing with respect to $x$, given $f(x)$ and a given value of $x$.
 
+Weights are updated by using the partial derivative of the loss with respect to each individual weight.
+
 By first principle, the derivative of a function $f(x)$ is
 
 $$f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
@@ -33,6 +35,3 @@ Derivative calculator: https://calculator-derivative.com/partial-derivative-calc
 ## Reference
 
 Table of derivatives: https://math.stackexchange.com/questions/4181083/derivative-with-chain-rule-of-sum-of-squares-error-function-when-fitting-the-dat
-
-
-(y-(wx+b))^2
