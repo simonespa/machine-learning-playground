@@ -130,7 +130,7 @@ The full list of dependencies directly installed via PIP is the following:
 pip install notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost tiktoken awswrangler sagemaker black isort kaggle split-folders pyspark
 ```
 
-## Tech Radar
+## Package Radar
 
 Other interesting stuff worth investigating.
 
@@ -154,19 +154,15 @@ pip freeze > requirements.txt
 
 ## How to upgrade the dependencies
 
-Replace all `==` symbols in the `requirements.txt` file with `>=`, then run
+To upgrade the dependencies we first need to replace all `==` symbols in the `requirements.txt` file with `>=`, then run the upgrade command, and finally freze the packages to the new versions. You can do so with the following commands:
 
-```
-pip install -r requirements.txt --upgrade
-```
-
-once upgraded run
-
-```
+```sh
+sh <<EOF
+sed -i '' 's/[~=]=/>=/' requirements.txt
+pip install --upgrade -r requirements.txt
 pip freeze > requirements.txt
+EOF
 ```
-
-to lock the newly downloaded versions to the requirements file
 
 ## Useful PIP commands
 
@@ -185,4 +181,4 @@ pip show numpy
 ## References
 
 - https://learnpython.org
-- https://github.com/ageron/handson-ml
+- https://github.com/ageron/handson-ml3
