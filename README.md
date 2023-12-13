@@ -154,14 +154,24 @@ pip freeze > requirements.txt
 
 ## How to upgrade the dependencies
 
-To upgrade the dependencies we first need to replace all `==` symbols in the `requirements.txt` file with `>=`, then run the upgrade command, and finally freze the packages to the new versions. You can do so with the following commands:
+To upgrade the dependencies we first need to replace all `==` symbols in the `requirements.txt` file with `>=`, so that we unlock the version and allow PIP to download the latest. We then run the upgrade command, and finally freze the packages again with the `==` symbol to lock the latest versions.
+
+Unlock the current versions
 
 ```sh
-sh <<EOF
 sed -i '' 's/[~=]=/>=/' requirements.txt
+```
+
+Upgrade to the latest versions
+
+```sh
 pip install --upgrade -r requirements.txt
+```
+
+Lock the latest versions
+
+```sh
 pip freeze > requirements.txt
-EOF
 ```
 
 ## Useful PIP commands
