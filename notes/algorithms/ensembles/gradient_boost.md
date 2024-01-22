@@ -9,3 +9,7 @@ Once the average is calculated, we calculate the residuals for each numeric targ
 ## Stopping criteria
 
 The algorithm continues until it reaches the maximum number of trees set or the ensemble can't improve the fit anymore.
+
+## Reference
+
+https://www.analyticsvidhya.com/blog/2021/09/gradient-boosting-algorithm-a-complete-guide-for-beginners/

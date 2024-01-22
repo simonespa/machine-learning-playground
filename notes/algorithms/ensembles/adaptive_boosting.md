@@ -21,3 +21,8 @@ The total error for a **stump** is the sum of the weights associated with the in
 ## Stopping criteria
 
 Until it reaches the maximum number of trees.
+
+## Reference
+
+- https://www.analyticsvidhya.com/blog/2021/09/adaboost-algorithm-a-complete-guide-for-beginners/
+- https://www.analyticsvidhya.com/blog/2021/03/introduction-to-adaboost-algorithm-with-python-implementation/
