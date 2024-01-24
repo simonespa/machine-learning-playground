@@ -106,6 +106,7 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 
 - [Jupyter](https://jupyter.org)
 - [JupyterLab](https://jupyter.org)
+- [Jupyter Widgets](https://ipywidgets.readthedocs.io/en/stable)
 - [NumPy](https://numpy.org)
 - [SciPy](https://scipy.org)
 - [SymPy](https://www.sympy.org/en/index.html)
