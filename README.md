@@ -112,6 +112,8 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [Pandas](https://pandas.pydata.org)
 - [Pandas Profiling](https://pypi.org/project/pandas-profiling/)
 - [Polars](https://www.pola.rs)
+- [Dask](https://www.dask.org)
+- [Dask ML](https://ml.dask.org)
 - [Statsmodels](https://www.statsmodels.org)
 - [Matplotlib](https://matplotlib.org)
 - [Seaborn](https://seaborn.pydata.org)
@@ -122,12 +124,15 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [Keras](https://keras.io)
 - [PyTorch](https://pytorch.org)
 - [XGBoost](https://xgboost.readthedocs.io)
-- [tiktoken](https://github.com/openai/tiktoken)
+- [Tiktoken](https://github.com/openai/tiktoken)
+- [AWS Wrangler](https://aws-sdk-pandas.readthedocs.io/en/stable/)
+- [Sagemaker](https://sagemaker.readthedocs.io/en/stable/)
+- [PySpark](https://spark.apache.org/docs/latest/api/python/index.html)
 
 The full list of dependencies directly installed via PIP is the following:
 
 ```
-pip install notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy pandas pandas_profiling polars statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost tiktoken awswrangler sagemaker black isort kaggle split-folders pyspark
+pip install notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy pandas pandas_profiling polars dask dask-ml statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost tiktoken awswrangler sagemaker black isort kaggle split-folders pyspark
 ```
 
 ## Package Radar
