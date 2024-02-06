@@ -11,7 +11,7 @@ Normalization - a.k.a. scaling normalization or min-max scaling - scales the fea
 
 ScikitLearn: [MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
 
- This method is useful when the feature distribution is not Gaussian (a.k.a. NOrmal or bell-shaped). Outliers in your data will be impacted by normalization because it needs a wide range to function correctly.
+ This method is useful when the feature distribution is non Gaussian (a.k.a. NOrmal or bell-shaped). Outliers in your data will be impacted by normalization because it needs a wide range to function correctly.
 
 Min-max scaling (many people call this normalization) is quite simple: values are
 shifted and rescaled so that they end up ranging from 0 to 1. We do this by subtract‐
@@ -42,3 +42,10 @@ ted. Scikit-Learn provides a transformer called StandardScaler for standardizati
 - Normalization has an interval between [0,1] or [-1,1] while standardization has no range restrictions
 - Normalization is used when the algorithm doesn't make any assumptions about the data distribution
 - Standardization is used when the algorithm does predictions about the data distribution
+
+## Resources
+- https://towardsdatascience.com/scale-standardize-or-normalize-with-scikit-learn-6ccc7d176a02
+
+## Notes
+
+If the distribution of the quantity is normal, then it should be standardized, otherwise the data should be normalized. This applies if the range of quantity values is large (10s, 100s, etc.) or small (0.01, 0.0001).
