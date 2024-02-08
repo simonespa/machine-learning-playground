@@ -46,9 +46,11 @@ I also attended courses on [LinkedIn Learning](https://www.linkedin.com/learning
 
 ## Python prerequisites
 
-Make sure to have the latest stable version of `Python` 3.x and `pip` installed on your machine. Consider using [Pyenv](https://github.com/pyenv/pyenv#installation) to manage your Python versions.
+Make sure to have a suitable stable version of `Python` 3.x and `pip` installed on your machine. Consider using [Pyenv](https://github.com/pyenv/pyenv#installation) to manage your Python versions.
 
 The desired Python version can now be set by running `pyenv install 3.n.m`, where `n` and `m` are the minor and patch version respectively. If you are not sure which version to install, you can check the available ones by running `pyenv install --list`.
+
+> Please read [Python Version](#python-version) section to check what's the latest python version compatible with the installed packages.
 
 ## Getting started with PIP and Virtualenv
 
@@ -125,16 +127,22 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [Keras](https://keras.io)
 - [PyTorch](https://pytorch.org)
 - [XGBoost](https://xgboost.readthedocs.io)
+- [LightGBM](https://lightgbm.readthedocs.io/en/stable) and [LightGBM Python Package](https://github.com/microsoft/LightGBM/tree/master/python-package)
 - [Tiktoken](https://github.com/openai/tiktoken)
 - [AWS Wrangler](https://aws-sdk-pandas.readthedocs.io/en/stable/)
 - [Sagemaker](https://sagemaker.readthedocs.io/en/stable/)
 - [PySpark](https://spark.apache.org/docs/latest/api/python/index.html)
+- [Optuna](https://optuna.org)
 
 The full list of dependencies directly installed via PIP is the following:
 
 ```
-pip install notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy pandas pandas_profiling polars dask dask-ml statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost tiktoken awswrangler sagemaker black isort kaggle split-folders pyspark
+pip install notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy pandas pandas_profiling polars dask dask-ml statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost tiktoken awswrangler sagemaker black isort kaggle split-folders pyspark optuna lightgbm category_encoders
 ```
+
+### Python Version
+
+Read [Tensorflow Software Requirements](https://www.tensorflow.org/install/pip#software_requirements) to check the latest Python version compatibility
 
 ## Package Radar
 
