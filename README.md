@@ -137,26 +137,25 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 The full list of dependencies directly installed via PIP is the following:
 
 ```
-pip install notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy pandas pandas_profiling polars dask dask-ml statsmodels matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost tiktoken awswrangler sagemaker black isort kaggle split-folders pyspark optuna lightgbm category_encoders
+pip install notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy statsmodels pandas ydata-profiling polars dask dask-ml matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost lightgbm tiktoken awswrangler sagemaker kaggle pyspark optuna category_encoders split-folders black isort
 ```
 
 ### Python Version
 
 Read [Tensorflow Software Requirements](https://www.tensorflow.org/install/pip#software_requirements) to check the latest Python version compatibility
 
-## Package Radar
+## Tech Radar
 
-Other interesting stuff worth investigating.
+Technology worth investigating:
 
-- [Caffe](https://caffe.berkeleyvision.org)
-- [NLTK](https://www.nltk.org)
-- [Theano](https://theano-pymc.readthedocs.io/en/latest)
-- [Ggplot](https://ggplot2.tidyverse.org/index.html)
-- [Dplyr](https://dplyr.tidyverse.org)
-- [Tidyr](https://tidyr.tidyverse.org)
-- [SpaCy](https://spacy.io)
 - [Apache Spark](https://spark.apache.org)
 - [mlflow](https://mlflow.org)
+- [Nvidia RAPIDS](https://developer.nvidia.com/rapids) & [RAPIDS.AI](https://rapids.ai/)
+- [NVIDIA Merlin](https://developer.nvidia.com/merlin)
+- [NLTK](https://www.nltk.org)
+- [SpaCy](https://spacy.io)
+- [Caffe](https://caffe.berkeleyvision.org)
+- [Tidyr](https://tidyr.tidyverse.org)
 
 ## How to generate the requirements file
 
