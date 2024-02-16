@@ -82,6 +82,12 @@ Install the required dependencies
 pip install -r requirements.txt
 ```
 
+Download the English "trained pipeline" for SpaCy (see https://spacy.io/usage)
+
+```sh
+python -m spacy download en_core_web_sm
+```
+
 Start the development environment
 
 ```
@@ -137,7 +143,7 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 The full list of dependencies directly installed via PIP is the following:
 
 ```
-pip install notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy statsmodels pandas ydata-profiling polars dask dask-ml matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost lightgbm tiktoken awswrangler sagemaker kaggle pyspark optuna category_encoders split-folders black isort
+pip install --upgrade pip setuptools wheel black isort notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy statsmodels pandas ydata-profiling polars dask dask-ml matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost lightgbm tiktoken nltk 'spacy[transformers,lookups]' awswrangler sagemaker pyspark pyarrow optuna category_encoders split-folders
 ```
 
 ### Python Version
