@@ -10,6 +10,8 @@ The aim of an autoencoder is to minimise the so-called "reconstruction loss". Th
 
 ## References
 
+Main reference https://www.deeplearningbook.org/contents/autoencoders.html and https://www.v7labs.com/blog/autoencoders-guide
+
 - https://www.jeremyjordan.me/autoencoders/
 - https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73
 

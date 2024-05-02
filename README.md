@@ -91,13 +91,13 @@ python -m spacy download en_core_web_sm
 Start the development environment
 
 ```
-jupyter notebook
+jupyter lab
 ```
 
 or
 
 ```
-jupyter lab
+jupyter notebook
 ```
 
 > NOTE: remember to deactivate the virtual environment by running the `deactivate` command once finished or if you switch project. If you don't do this and run `python` in another project through the same terminal session, you'll be running the same local version of Python with dependencies you may not want or need.
@@ -134,6 +134,7 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [PyTorch](https://pytorch.org)
 - [XGBoost](https://xgboost.readthedocs.io)
 - [LightGBM](https://lightgbm.readthedocs.io/en/stable) and [LightGBM Python Package](https://github.com/microsoft/LightGBM/tree/master/python-package)
+- [Prophet](https://facebook.github.io/prophet/)
 - [Tiktoken](https://github.com/openai/tiktoken)
 - [AWS Wrangler](https://aws-sdk-pandas.readthedocs.io/en/stable/)
 - [Sagemaker](https://sagemaker.readthedocs.io/en/stable/)
@@ -143,7 +144,7 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 The full list of dependencies directly installed via PIP is the following:
 
 ```
-pip install --upgrade pip setuptools wheel black isort notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy statsmodels pandas ydata-profiling polars dask dask-ml matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio xgboost lightgbm tiktoken nltk 'spacy[transformers,lookups]' awswrangler sagemaker pyspark pyarrow optuna category_encoders split-folders
+pip install --upgrade pip setuptools wheel black isort rdflib notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy statsmodels pandas ydata-profiling polars 'dask[complete]' 'dask-ml[complete]' matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets keras-tuner torch torchvision torchaudio xgboost lightgbm prophet tiktoken nltk 'spacy[transformers,lookups]' awswrangler sagemaker pyspark pyarrow optuna category_encoders split-folders
 ```
 
 ### Python Version

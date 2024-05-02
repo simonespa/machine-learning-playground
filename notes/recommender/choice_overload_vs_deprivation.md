@@ -19,7 +19,7 @@ The human intervention suggests certain content groups or specific items to the 
 
 ## Choice overload vs Choice deprivation
 
-Choice overload happens when people are overwhelmed by the amount of choices to make compared to how many they really need or can cope with. On the other side of the medal we have , choice deprivation have so few falvours that their likelihood of content consumption decreases.
+Choice overload happens when people are overwhelmed by the amount of choices to make compared to how many they really need or can cope with. On the other side of the medal we have choice deprivation. Deprivation happens when there are so few flavours that their likelihood of content consumption decreases.
 
  While choice deprivation is the opposite situation.
 
@@ -42,6 +42,9 @@ This extreme "no-choice" case could be tested as an experimental feature that us
 
 just few things. This only works for people who are inclined towards the undecisevness. Some people like to be told what to consume so they don't have to. This doesn't mean they may certainly like the content, but it helps with exploration.
 
+### Sense of guilt with information overload
+
+The performance of the chosen content seems/appears mediocre in comparison with the unknown. You have chosen something and you are wondering: "what if I did choose something else?"
 
 ## Explore new content
 - Human intervention: hints and overrides
