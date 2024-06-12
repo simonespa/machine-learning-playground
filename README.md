@@ -56,18 +56,18 @@ The desired Python version can now be set by running `pyenv install 3.n.m`, wher
 
 Install [Virtualenv](https://pypi.org/project/virtualenv/) in order to setup an isolated virtual environment to manage the Python project and dependencies (read this [installation](https://virtualenv.pypa.io/en/latest/installation.html) guide on how to).
 
-You need to create a virtual environment with a clean installation of Python. The following command do so, by creating a folder called `.python` (which is automatically excluded from revision control) containing a vanilla installation of Python with just the initial depdendencies installed.
+You need to create a virtual environment with a clean installation of Python. The following command do so, by creating a folder called `ml-playground` (which is automatically excluded from revision control) containing a vanilla installation of Python with just the initial depdendencies installed.
 
-Create a virtual environment (only if you don't have an `.python` folder yet)
+Create a virtual environment (only if you don't have an `ml-playground` folder yet)
 
 ```sh
-virtualenv .python
+virtualenv ml-playground
 ```
 
 Enable the virtual environment
 
 ```sh
-source .python/bin/activate
+source ml-playground/bin/activate
 ```
 
 Check the python interpreter used is the one from the virtual environment
@@ -82,22 +82,10 @@ Install the required dependencies
 pip install -r requirements.txt
 ```
 
-Download the English "trained pipeline" for SpaCy (see https://spacy.io/usage)
-
-```sh
-python -m spacy download en_core_web_sm
-```
-
 Start the development environment
 
-```
+```sh
 jupyter lab
-```
-
-or
-
-```
-jupyter notebook
 ```
 
 > NOTE: remember to deactivate the virtual environment by running the `deactivate` command once finished or if you switch project. If you don't do this and run `python` in another project through the same terminal session, you'll be running the same local version of Python with dependencies you may not want or need.
@@ -119,7 +107,6 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [SciPy](https://scipy.org)
 - [SymPy](https://www.sympy.org/en/index.html)
 - [Pandas](https://pandas.pydata.org)
-- [Pandas Profiling](https://pypi.org/project/pandas-profiling/)
 - [Polars](https://www.pola.rs)
 - [Dask](https://www.dask.org)
 - [Dask ML](https://ml.dask.org)
@@ -135,16 +122,18 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [XGBoost](https://xgboost.readthedocs.io)
 - [LightGBM](https://lightgbm.readthedocs.io/en/stable) and [LightGBM Python Package](https://github.com/microsoft/LightGBM/tree/master/python-package)
 - [Prophet](https://facebook.github.io/prophet/)
-- [Tiktoken](https://github.com/openai/tiktoken)
 - [AWS Wrangler](https://aws-sdk-pandas.readthedocs.io/en/stable/)
 - [Sagemaker](https://sagemaker.readthedocs.io/en/stable/)
 - [PySpark](https://spark.apache.org/docs/latest/api/python/index.html)
 - [Optuna](https://optuna.org)
+- [Imbalanced Learn](https://imbalanced-learn.org/stable/)
+- [SHAP](https://shap.readthedocs.io/en/latest/)
+- [PyWhy](https://www.pywhy.org/)
 
 The full list of dependencies directly installed via PIP is the following:
 
 ```
-pip install --upgrade pip setuptools wheel black isort split-folders rdflib notebook jupyterlab ipywidgets jupyterlab-code-formatter voila numpy scipy sympy statsmodels pandas polars 'dask[complete]' 'dask-ml[complete]' ydata-profiling dataprep sweetviz autoviz lux  matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets keras-tuner torch torchvision torchaudio xgboost lightgbm prophet tiktoken nltk 'spacy[transformers,lookups]' awswrangler sagemaker pyspark pyarrow optuna imbalanced-learn category_encoders
+pip install black isort split-folders rdflib notebook jupyterlab ipywidgets voila numpy scipy sympy statsmodels pandas polars 'dask[complete]' distributed 'dask-ml[complete]' ydata-profiling sweetviz autoviz lux matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets keras-tuner torch torchvision torchaudio xgboost lightgbm prophet awswrangler sagemaker pyspark pyarrow optuna imbalanced-learn category_encoders shap lime anchor-exp dowhy econml causal-learn
 ```
 
 ### Python Version
