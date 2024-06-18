@@ -70,6 +70,7 @@ fonttools==4.53.0
 fqdn==1.5.1
 fsspec==2024.6.0
 gast==0.5.4
+gensim==4.3.2
 google-pasta==0.2.0
 googleapis-common-protos==1.63.1
 graphviz==0.20.3
@@ -123,6 +124,7 @@ langcodes==3.4.0
 language_data==1.2.0
 lazy_loader==0.4
 libclang==18.1.1
+lightfm==1.17
 lightgbm==4.3.0
 lime==0.2.0.1
 linkify-it-py==2.0.3

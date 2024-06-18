@@ -43,7 +43,6 @@ Type of classifications: https://machinelearningmastery.com/types-of-classificat
 - Binary
 - Multi-Class
 - Multi-Label
-- Imbalanced
 
 Reference: https://machinelearningmastery.com/types-of-classification-in-machine-learning/
 

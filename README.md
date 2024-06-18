@@ -82,6 +82,12 @@ Install the required dependencies
 pip install -r requirements.txt
 ```
 
+Download the [English pipeline for Spacy](https://spacy.io/models/en#en_core_web_md)
+
+```sh
+python -m spacy download en_core_web_md
+```
+
 Start the development environment
 
 ```sh
@@ -129,11 +135,14 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [Imbalanced Learn](https://imbalanced-learn.org/stable/)
 - [SHAP](https://shap.readthedocs.io/en/latest/)
 - [PyWhy](https://www.pywhy.org/)
+- [SpaCy](https://spacy.io)
+- [Gensim](https://radimrehurek.com/gensim/)
+- [LightFM](https://making.lyst.com/lightfm/docs/)
 
 The full list of dependencies directly installed via PIP is the following:
 
 ```
-pip install black isort split-folders rdflib notebook jupyterlab ipywidgets voila numpy scipy sympy statsmodels pandas polars 'dask[complete]' distributed 'dask-ml[complete]' ydata-profiling sweetviz autoviz lux matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets keras-tuner torch torchvision torchaudio xgboost lightgbm prophet awswrangler sagemaker pyspark pyarrow optuna imbalanced-learn category_encoders shap lime anchor-exp dowhy econml causal-learn
+pip install black isort split-folders rdflib notebook jupyterlab ipywidgets voila numpy scipy sympy statsmodels pandas polars 'dask[complete]' distributed 'dask-ml[complete]' ydata-profiling sweetviz autoviz lux matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets keras-tuner torch torchvision torchaudio xgboost lightgbm prophet awswrangler sagemaker pyspark pyarrow optuna imbalanced-learn category_encoders shap lime anchor-exp dowhy econml causal-learn spacy gensim lightfm
 ```
 
 ### Python Version
@@ -146,12 +155,13 @@ Technology worth investigating:
 
 - [Apache Spark](https://spark.apache.org)
 - [mlflow](https://mlflow.org)
-- [Nvidia RAPIDS](https://developer.nvidia.com/rapids) & [RAPIDS.AI](https://rapids.ai/)
-- [NVIDIA Merlin](https://developer.nvidia.com/merlin)
+- [Nvidia AI (RAPIDS)](https://developer.nvidia.com/rapids)
+  - [GitHub](https://github.com/rapidsai)
+  - [Rapids.ai](https://rapids.ai/)
+  - [Triton Inference Server](https://github.com/triton-inference-server)
+- [Nvidia Merlin](https://developer.nvidia.com/merlin)
+  - [GitHub](https://github.com/NVIDIA-Merlin)
 - [NLTK](https://www.nltk.org)
-- [SpaCy](https://spacy.io)
-- [Caffe](https://caffe.berkeleyvision.org)
-- [Tidyr](https://tidyr.tidyverse.org)
 
 ## How to generate the requirements file
 
