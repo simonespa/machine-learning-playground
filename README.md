@@ -48,7 +48,7 @@ I also attended courses on [LinkedIn Learning](https://www.linkedin.com/learning
 
 Make sure to have a suitable stable version of `Python` 3.x and `pip` installed on your machine. Consider using [Pyenv](https://github.com/pyenv/pyenv#installation) to manage your Python versions.
 
-The desired Python version can now be set by running `pyenv install 3.n.m`, where `n` and `m` are the minor and patch version respectively. If you are not sure which version to install, you can check the available ones by running `pyenv install --list`.
+The desired Python version can be set by running `pyenv install 3.n.m`, where `n` and `m` are the minor and patch version respectively. If you are not sure which version to install, you can check the available ones by running `pyenv install --list`.
 
 > Please read [Python Version](#python-version) section to check what's the latest python version compatible with the installed packages.
 
@@ -58,16 +58,16 @@ Install [Virtualenv](https://pypi.org/project/virtualenv/) in order to setup an 
 
 You need to create a virtual environment with a clean installation of Python. The following command do so, by creating a folder called `ml-playground` (which is automatically excluded from revision control) containing a vanilla installation of Python with just the initial depdendencies installed.
 
-Create a virtual environment (only if you don't have an `.pyenv` folder yet)
+Create a virtual environment (only if you don't have an `ml` folder yet)
 
 ```sh
-virtualenv .pyenv
+virtualenv ml
 ```
 
 Enable the virtual environment
 
 ```sh
-source ml-playground/bin/activate
+source ml/bin/activate
 ```
 
 Check the python interpreter used is the one from the virtual environment
@@ -112,14 +112,13 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [NumPy](https://numpy.org)
 - [SciPy](https://scipy.org)
 - [SymPy](https://www.sympy.org/en/index.html)
+- [Statsmodels](https://www.statsmodels.org)
 - [Pandas](https://pandas.pydata.org)
 - [Polars](https://www.pola.rs)
 - [Dask](https://www.dask.org)
 - [Dask ML](https://ml.dask.org)
-- [Statsmodels](https://www.statsmodels.org)
 - [Matplotlib](https://matplotlib.org)
 - [Seaborn](https://seaborn.pydata.org)
-- [Altair](https://altair-viz.github.io)
 - [Plotly](https://plotly.com/python)
 - [Scikit-Learn](https://scikit-learn.org)
 - [TensorFlow](https://www.tensorflow.org)
@@ -127,6 +126,7 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [PyTorch](https://pytorch.org)
 - [XGBoost](https://xgboost.readthedocs.io)
 - [LightGBM](https://lightgbm.readthedocs.io/en/stable) and [LightGBM Python Package](https://github.com/microsoft/LightGBM/tree/master/python-package)
+- [CatBoost](https://catboost.ai/)
 - [Prophet](https://facebook.github.io/prophet/)
 - [AWS Wrangler](https://aws-sdk-pandas.readthedocs.io/en/stable/)
 - [Sagemaker](https://sagemaker.readthedocs.io/en/stable/)
@@ -136,16 +136,17 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [SHAP](https://shap.readthedocs.io/en/latest/)
 - [PyWhy](https://www.pywhy.org/)
 - [SpaCy](https://spacy.io)
+- [NLTK](https://www.nltk.org/)
 - [Gensim](https://radimrehurek.com/gensim/)
-- [LightFM](https://making.lyst.com/lightfm/docs/)
-- [Transformers](https://huggingface.co/docs/transformers/en/index)
+- [Hugging Face Transformers](https://huggingface.co/docs/transformers/en/index)
+- [Hugging Face Diffusers](https://huggingface.co/docs/diffusers/en/index)
 - [MLFlow](https://mlflow.org/)
 - [AutoKeras](https://autokeras.com/)
 
 The full list of dependencies directly installed via PIP is the following:
 
 ```
-pip install black isort split-folders rdflib notebook jupyterlab ipywidgets voila numpy scipy sympy statsmodels pandas polars 'dask[complete]' distributed 'dask-ml[complete]' ydata-profiling sweetviz autoviz lux matplotlib seaborn altair plotly scikit-learn tensorflow tensorflow_datasets keras-tuner torch torchvision torchaudio xgboost lightgbm prophet awswrangler sagemaker pyspark pyarrow optuna imbalanced-learn category_encoders shap lime anchor-exp dowhy econml causal-learn spacy gensim nltk lightfm transformers mlflow autokeras
+pip install flake8 black isort split-folders rdflib notebook jupyterlab ipywidgets voila numpy scipy sympy statsmodels pandas polars 'dask[complete]' distributed 'dask-ml[complete]' ydata-profiling sweetviz autoviz lux matplotlib seaborn plotly scikit-learn tensorflow tensorflow_datasets keras-tuner torch torchvision torchaudio xgboost lightgbm catboost prophet awswrangler sagemaker pyspark pyarrow optuna imbalanced-learn category_encoders shap lime anchor-exp dowhy econml causal-learn spacy gensim nltk lightfm transformers 'diffusers[torch]' mlflow autokeras
 ```
 
 ### Python Version
@@ -164,7 +165,6 @@ Technology worth investigating:
   - [Triton Inference Server](https://github.com/triton-inference-server)
 - [Nvidia Merlin](https://developer.nvidia.com/merlin)
   - [GitHub](https://github.com/NVIDIA-Merlin)
-- [NLTK](https://www.nltk.org)
 
 ## How to generate the requirements file
 
