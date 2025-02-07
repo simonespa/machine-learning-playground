@@ -165,6 +165,8 @@ Technology worth investigating:
   - [Triton Inference Server](https://github.com/triton-inference-server)
 - [Nvidia Merlin](https://developer.nvidia.com/merlin)
   - [GitHub](https://github.com/NVIDIA-Merlin)
+- [Google What-If Tool](https://pair-code.github.io/what-if-tool/)
+- [IBM AI Fairness 360](https://aif360.res.ibm.com/)
 
 ## How to generate the requirements file
 
