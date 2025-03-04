@@ -140,13 +140,14 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [Gensim](https://radimrehurek.com/gensim/)
 - [Hugging Face Transformers](https://huggingface.co/docs/transformers/en/index)
 - [Hugging Face Diffusers](https://huggingface.co/docs/diffusers/en/index)
+- [Hugging Face Datasets](https://huggingface.co/docs/datasets/en/index)
 - [MLFlow](https://mlflow.org/)
 - [AutoKeras](https://autokeras.com/)
 
 The full list of dependencies directly installed via PIP is the following:
 
 ```
-pip install flake8 black isort split-folders rdflib notebook jupyterlab ipywidgets voila numpy scipy sympy statsmodels pandas polars 'dask[complete]' distributed 'dask-ml[complete]' ydata-profiling sweetviz autoviz lux matplotlib seaborn plotly scikit-learn tensorflow tensorflow_datasets keras-tuner torch torchvision torchaudio xgboost lightgbm catboost prophet awswrangler sagemaker pyspark pyarrow optuna imbalanced-learn category_encoders shap lime anchor-exp dowhy econml causal-learn spacy gensim nltk lightfm transformers 'diffusers[torch]' mlflow autokeras
+pip install flake8 black isort split-folders rdflib notebook jupyterlab ipywidgets voila numpy scipy sympy statsmodels pandas polars 'dask[complete]' distributed 'dask-ml[complete]' ydata-profiling sweetviz autoviz lux matplotlib seaborn plotly scikit-learn tensorflow tensorflow_datasets keras-tuner torch torchvision torchaudio xgboost lightgbm catboost prophet awswrangler sagemaker pyspark pyarrow optuna imbalanced-learn category_encoders shap lime anchor-exp dowhy econml causal-learn spacy gensim nltk lightfm transformers datasets 'datasets[audio]' 'datasets[vision]' 'diffusers[torch]' mlflow autokeras
 ```
 
 ### Python Version
@@ -158,7 +159,9 @@ Read [Tensorflow Software Requirements](https://www.tensorflow.org/install/pip#s
 Technology worth investigating:
 
 - [Apache Spark](https://spark.apache.org)
-- [mlflow](https://mlflow.org)
+- [Apache Airflow](https://airflow.apache.org/docs/apache-airflow/stable/index.html)
+- [Kestra](https://kestra.io/docs)
+- [MLflow](https://mlflow.org/docs/latest/index.html)
 - [Nvidia AI (RAPIDS)](https://developer.nvidia.com/rapids)
   - [GitHub](https://github.com/rapidsai)
   - [Rapids.ai](https://rapids.ai/)
