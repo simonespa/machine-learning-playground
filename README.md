@@ -147,7 +147,7 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 The full list of dependencies directly installed via PIP is the following:
 
 ```
-pip install flake8 black isort split-folders rdflib notebook jupyterlab ipywidgets voila numpy scipy sympy statsmodels pandas polars 'dask[complete]' distributed 'dask-ml[complete]' ydata-profiling sweetviz autoviz lux matplotlib seaborn plotly scikit-learn tensorflow tensorflow_datasets keras-tuner torch torchvision torchaudio xgboost lightgbm catboost prophet awswrangler sagemaker pyspark pyarrow optuna imbalanced-learn category_encoders shap lime anchor-exp dowhy econml causal-learn spacy gensim nltk lightfm transformers datasets 'datasets[audio]' 'datasets[vision]' 'diffusers[torch]' mlflow autokeras
+pip install flake8 black isort split-folders rdflib notebook jupyterlab ipywidgets voila numpy scipy sympy statsmodels pandas polars 'dask[complete]' distributed 'dask-ml[complete]' ydata-profiling sweetviz autoviz lux matplotlib seaborn plotly scikit-learn tensorflow tensorflow_datasets keras-tuner torch torchvision torchaudio xgboost lightgbm catboost prophet awswrangler sagemaker pyspark pyarrow optuna imbalanced-learn category_encoders shap lime anchor-exp dowhy econml causal-learn spacy gensim nltk lightfm transformers datasets 'datasets[audio]' 'datasets[vision]' 'diffusers[torch]' evaluate accelerate mlflow autokeras
 ```
 
 ### Python Version
