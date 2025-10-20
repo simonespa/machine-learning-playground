@@ -1,0 +1,23 @@
+services:
+  jupyter:
+    container_name: pyspark
+    build:
+      context: .
+      args:
+        openjdk_version: 25 # https://github.com/jupyter/docker-stacks/blob/main/images/pyspark-notebook/Dockerfile#L19C5-L19C20
+        scala_version: 3.3.6
+    environment:
+      - NB_USER=pyspark
+      - CHOWN_HOME=yes
+    user: root
+    working_dir: /home/pyspark
+    ports:
+      - 8080:8888
+    volumes:
+      - ./workspace:/home/pyspark/workspace
+      - jupyter:/home/pyspark
+    command: start-notebook.py --NotebookApp.token='b4847fad9ad1693c7912616e1714ac5d4051c18f'
+
+volumes:
+  jupyter:
+    name: pyspark
