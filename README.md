@@ -61,13 +61,13 @@ You need to create a virtual environment with a clean installation of Python. Th
 Create a virtual environment (only if you don't have an `ml` folder yet)
 
 ```sh
-virtualenv ml
+virtualenv .venv --prompt ml
 ```
 
 Enable the virtual environment
 
 ```sh
-source ml/bin/activate
+source .venv/bin/activate
 ```
 
 Check the python interpreter used is the one from the virtual environment
@@ -76,16 +76,16 @@ Check the python interpreter used is the one from the virtual environment
 which python
 ```
 
-Install the required dependencies
+Install the required base dependencies
 
 ```sh
 pip install -r requirements.txt
 ```
 
-Download the [English pipeline for Spacy](https://spacy.io/models/en#en_core_web_md)
+or
 
 ```sh
-python -m spacy download en_core_web_md
+pip install flake8 black isort jupyterlab numpy scipy sympy pandas ydata-profiling statsmodels prophet scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio keras matplotlib seaborn
 ```
 
 Start the development environment
@@ -96,15 +96,9 @@ jupyter lab
 
 > NOTE: remember to deactivate the virtual environment by running the `deactivate` command once finished or if you switch project. If you don't do this and run `python` in another project through the same terminal session, you'll be running the same local version of Python with dependencies you may not want or need.
 
-## Getting started with Anaconda
-
-- Download and install [Anaconda](https://www.anaconda.com) on your machine
-- Start the [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/)
-- Install and launch the Jupyter notebook or JupyterLab from the "home" tab
-
 ## Dependencies
 
-This is the list of the main DS libraries included in the `requirements.txt` file.
+This is the list of the main libraries used in the entire project:
 
 - [Jupyter](https://jupyter.org)
 - [JupyterLab](https://jupyter.org)
@@ -144,15 +138,9 @@ This is the list of the main DS libraries included in the `requirements.txt` fil
 - [MLFlow](https://mlflow.org/)
 - [AutoKeras](https://autokeras.com/)
 
-The full list of dependencies directly installed via PIP is the following:
-
-```
-pip install flake8 black isort split-folders rdflib notebook jupyterlab ipywidgets voila numpy scipy sympy statsmodels pandas polars 'dask[complete]' distributed 'dask-ml[complete]' ydata-profiling sweetviz autoviz lux matplotlib seaborn plotly scikit-learn tensorflow tensorflow_datasets keras-tuner torch torchvision torchaudio xgboost lightgbm catboost prophet awswrangler sagemaker pyspark pyarrow optuna imbalanced-learn category_encoders shap lime anchor-exp dowhy econml causal-learn spacy gensim nltk lightfm transformers datasets 'datasets[audio]' 'datasets[vision]' 'diffusers[torch]' mlflow autokeras
-```
-
 ### Python Version
 
-Read [Tensorflow Software Requirements](https://www.tensorflow.org/install/pip#software_requirements) to check the latest Python version compatibility
+Read [Tensorflow Software Requirements](https://www.tensorflow.org/install/pip#software_requirements) to check the latest Python version compatibility.
 
 ## Tech Radar
 
