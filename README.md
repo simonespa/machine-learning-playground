@@ -46,11 +46,9 @@ I also attended courses on [LinkedIn Learning](https://www.linkedin.com/learning
 
 ## Python prerequisites
 
-Make sure to have a suitable stable version of `Python` 3.x and `pip` installed on your machine. Consider using [Pyenv](https://github.com/pyenv/pyenv#installation) to manage your Python versions.
+Make sure to have a suitable stable version of `Python` 3.x and `pip` installed on your machine (see the current [Python version](./.python-version) installed). Consider using [Pyenv](https://github.com/pyenv/pyenv#installation) to manage the versions. Furthermore, read [Tensorflow Software Requirements](https://www.tensorflow.org/install/pip#software_requirements) to check the latest compatibility.
 
 The desired Python version can be set by running `pyenv install 3.n.m`, where `n` and `m` are the minor and patch version respectively. If you are not sure which version to install, you can check the available ones by running `pyenv install --list`.
-
-> Please read [Python Version](#python-version) section to check what's the latest python version compatible with the installed packages.
 
 ## Getting started with PIP and Virtualenv
 
@@ -137,10 +135,6 @@ This is the list of the main libraries used in the entire project:
 - [Hugging Face Datasets](https://huggingface.co/docs/datasets/en/index)
 - [MLFlow](https://mlflow.org/)
 - [AutoKeras](https://autokeras.com/)
-
-### Python Version
-
-Read [Tensorflow Software Requirements](https://www.tensorflow.org/install/pip#software_requirements) to check the latest Python version compatibility.
 
 ## Tech Radar
 
