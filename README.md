@@ -83,7 +83,7 @@ pip install -r requirements.txt
 or
 
 ```sh
-pip install flake8 black isort jupyterlab numpy scipy sympy pandas ydata-profiling statsmodels prophet scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio keras matplotlib seaborn
+pip install flake8 black isort jupyterlab ipywidgets numpy scipy sympy pandas ydata-profiling statsmodels prophet scikit-learn tensorflow tensorflow_datasets torch torchvision torchaudio keras matplotlib seaborn
 ```
 
 Start the development environment
